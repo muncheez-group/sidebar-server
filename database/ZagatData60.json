@@ -1,0 +1,2869 @@
+[
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7867167,
+            "lng": -122.4111737
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7881962302915,
+               "lng": -122.4098846697085
+            },
+            "southwest": {
+               "lat": 37.7854982697085,
+               "lng": -122.4125826302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id": "3344890deedcb97b1c2d64814f92a02510ba39c8",
+      "name": "Clift San Francisco",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 900,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/114937580614387417622/photos\">Clift San Francisco</a>"
+            ],
+            "photo_reference": "CmRaAAAAzIFa4j6fNH2OEUuong2Dwpc6mCgIs393FgaynQcW9gBG3L20UQpH5z89fYKvrHIvJlloNDL43oucx2qbrUk1eRlANkAXoA0tYE6Hzkr8LGWwEY7n1JV4rCbox8UEW-cbEhCZss97m0YiWW2QeuvDJtYcGhRy7hlNyx8S8bMyKsTbnY3WuvMo4g",
+            "width": 1155
+         }
+      ],
+      "place_id": "ChIJFUBxSY6AhYARwOaLV7TsLjw",
+      "price_level": 4,
+      "rating": 4.1,
+      "reference": "CmRRAAAALnTUlZBdom9OL343Y-8kkDIjX1gNkNqSa41UqdaeZv78cE_XgmrHZzQOeXUn1La65Pc9JcJIHgshrPDEdtTsy00DcWyNqTEznyoxS7F_GyUkdJpJV-0O7DhTdNgU0-GsEhBRDC5T1r_4MmmdAWAYdn78GhSPUiM3Rxo8WkLwPWZMTI-ejktu7g",
+      "scope": "GOOGLE",
+      "types": [
+         "night_club",
+         "bar",
+         "lodging",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "495 Geary Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.785568,
+            "lng": -122.408581
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7868505802915,
+               "lng": -122.4071535197085
+            },
+            "southwest": {
+               "lat": 37.7841526197085,
+               "lng": -122.4098514802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id": "f052f9761fec9c594502f9ea10706e5fac9478e4",
+      "name": "Hotel Fusion",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 1000,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/112571000091010561964/photos\">Hotel Fusion</a>"
+            ],
+            "photo_reference": "CmRaAAAAFBpm0mb3FKbxxM8EF0TUbDz117v5R3ffoEriBlVzh4IDKcjKLq6WeNE060mXj_N7G1FKjRd8pG-oJ4bSlUapb5qelKDNLdsEf1Jk6xRmIb6ery8cit0SHFPQfg-O3pgPEhB2h-yb8BnJsxffxafDSg00GhTbrM1fRaaFpG5C8VJbUFshTy4HSg",
+            "width": 1500
+         }
+      ],
+      "place_id": "ChIJ0SMraI-AhYAREeJAvm2_yGM",
+      "rating": 3.6,
+      "reference": "CmRRAAAAUWIxqGwQhNTWi5_OT2jJqrIF4lrUFVA6zIooBoAzj8kxjRk-qDAtuIC_P95DE8rz9XZdCIpmFwn2btHIlhrFLd18YApwOmh9ftAF4k6vHUf1y5AwfAUOVxRhr6T-ySKfEhBTfTF-1yusyZdj9i7L54BNGhSIdF4xRRL3SjPtW_uO9Z-V3niyCw",
+      "scope": "GOOGLE",
+      "types": [
+         "night_club",
+         "lodging",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "140 Ellis Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7923723,
+            "lng": -122.4105611
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.79351938029149,
+               "lng": -122.40862955
+            },
+            "southwest": {
+               "lat": 37.79082141970849,
+               "lng": -122.41172695
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id": "a9dbcfebeadf2c2e488dd47116305abb181a0cbb",
+      "name": "Fairmont San Francisco",
+      "photos": [
+         {
+            "height": 1365,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/114386282276154448100/photos\">Hotel Fairmont</a>"
+            ],
+            "photo_reference": "CmRaAAAAih7KP4Gv5bWgnWgYZZ-ozQZ_k2PmMEu-KxrsTttQNmxA2j9YC7n496lIKuPyCZyuHiZKW-z_bFiE6bLzyxDiFk4WPNPgAb7f4FNOJd3L05JplP-ATkEjF0jUIltd3K97EhAGe_ytZ2eIvrITtQH7RmDkGhSSLH5HsXgDAdiQ6DlXX13vkGs1eQ",
+            "width": 2048
+         }
+      ],
+      "place_id": "ChIJN2S4EI2AhYAR9J4Qeh1U8Aw",
+      "rating": 4.5,
+      "reference": "CmRRAAAAiVu9xAHMiMc_ZwA5tbLtzbmCw9Vu7b9kEn_pWQ03CmKV7HDyTlHE-4iutmQKiBptvPyYaGEw-CEPpkCHFfmyjtHYBQl3OPIilloaM4xtmGWTU-b7zSDRsOA3ZrKk3d7OEhA7b7AuV_JnyXdEwvXVcyXMGhQlI4gHnfXXwfx1BQXYgCqJRgdKqg",
+      "scope": "GOOGLE",
+      "types": [
+         "lodging",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "950 Mason St, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.867488,
+            "lng": -122.262748
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8687604802915,
+               "lng": -122.2613841197085
+            },
+            "southwest": {
+               "lat": 37.8660625197085,
+               "lng": -122.2640820802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id": "842a8e4b303133d43cd802ec3c01bc55d8d87fb2",
+      "name": "Berkeley City Club",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 5472,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/108976404230979182341/photos\">Berkeley City Club</a>"
+            ],
+            "photo_reference": "CmRaAAAA-1GoeRI6i2Ii1zGciEzbwXmIV-7S1RVWDV14GsH7z1keAnEKuBYcDfKvl4302EWVrpYQwJ0onD-ae5Ow42L8bdVbae6E0aUCSNtQ9Zs6eaKUEt9a8UkBI69IFurs780gEhBgwkr7RKd11a4iEywFuO2gGhRt_6uXtv2xW5MTkKRztB-L3YVA-g",
+            "width": 3648
+         }
+      ],
+      "place_id": "ChIJjd1RfCh8hYARphti9hFFTjU",
+      "rating": 4.4,
+      "reference": "CmRRAAAAAK4uBKFo4hchEkIWISx-Sh7eq72lIPHW7LBGGSVd_zyLQDbTGoK-5XUsaksg__hQwrnalxNLZY-8ZSjoNecByYOaQg1WjXA5ZqgosBzrf6WfYoeC_Xqeoh6eRxjCzpVoEhDAlqsE04ab9MTCxx87bWdtGhS0TsFH3G_VDvBGc8v3iCH5HAf7mw",
+      "scope": "GOOGLE",
+      "types": [
+         "lodging",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "2315 Durant Avenue, Berkeley"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8679339,
+            "lng": -122.2563451
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8693902302915,
+               "lng": -122.2551146697085
+            },
+            "southwest": {
+               "lat": 37.8666922697085,
+               "lng": -122.2578126302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id": "d1e2478d1101346c96f9f7850db6505e37809aac",
+      "name": "Graduate Berkeley",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2988,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/103229973875312895432/photos\">Kenneth Epley</a>"
+            ],
+            "photo_reference": "CmRaAAAApG9RWuiB5A5c8AgEnDygBXbpc_xH_urUlQ06ReVuGeOTuWb9rxeMyMyPSbPVB8_7dsDLPck2i7IhWaqC4M-WyNj4vsmRNxovqhkxZdPOXuALG4hoJscPnNxgWvCLCpvwEhBn--H2_46eTbGWVrLi2PqrGhTp70ilcQbirBvXDnhEwwCJd_2SEg",
+            "width": 5312
+         }
+      ],
+      "place_id": "ChIJO1q-ry98hYARXdN27wXhtqg",
+      "rating": 4.2,
+      "reference": "CmRSAAAAKokYpX8JQB0BnrwG0asbPGZfwro4OoG4JfKeVGntW5z2ZXKqdiFtyt9NilR-mLpKvS9AzaMGEPPA4oNYvDzP4SFGV7dwjQF7qLebd7CRlul9ImJY3bo4ALYibI_u790PEhC-4gUBsCsNhlXvmPC1Hh3uGhSYGZJ_LTFURfPF27sygrIEud3VDg",
+      "scope": "GOOGLE",
+      "types": [
+         "lodging",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "2600 Durant Avenue, Berkeley"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.797387,
+            "lng": -122.395196
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7986156802915,
+               "lng": -122.3940592697085
+            },
+            "southwest": {
+               "lat": 37.7959177197085,
+               "lng": -122.3967572302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "2dfcc4cf449104804f979d0c74583f2b3a48d046",
+      "name": "La Mar Cebicheria Peruana",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2788,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/106633014481988554125/photos\">Artem Kevorkov</a>"
+            ],
+            "photo_reference": "CmRaAAAARwHFVynYYmfqg8cGUgoLaxuPXT0rA-FOrAE7mxk3tHt5E0G6ZHZ69KscW5UlFhC0W9glCwl1hG6h6VahCiZioSmai8ttiyJq6RABEmwWWiGy_umRREe4lar6FLaAn1XFEhAb8N9mwNkSCsd9oeJ_Iuv_GhTnNAUunjAicxmrNAcCuPHYwYYfaQ",
+            "width": 3831
+         }
+      ],
+      "place_id": "ChIJURDKN2eAhYARN0AMzUEaiKo",
+      "price_level": 3,
+      "rating": 4.4,
+      "reference": "CmRSAAAA_fV6BuMyHU77uL1z83BHvIRStTfxX1c_lTzm3QqcnzWP8EhEaLDot6UACrY2gTddUmHmYXNwVDektJbwauEsSndxp-iXrOCs2zrJHH6k8BtkKFeI8n8Q1xxQEVK17LR7EhBWhkodzjwBNTOAAez4SuZ8GhQhFnjLmHR9doHK5Wad39eqV_XxAg",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "pier 1 1/2 The Embarcadero, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.81408199999999,
+            "lng": -122.264354
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.81538983029149,
+               "lng": -122.2631929197085
+            },
+            "southwest": {
+               "lat": 37.8126918697085,
+               "lng": -122.2658908802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "166e623bbb32120179fd48459b123871571618d1",
+      "name": "Mua Oakland",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2992,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/108221428149674756345/photos\">Kacey Hadick</a>"
+            ],
+            "photo_reference": "CmRaAAAAW5tPD_-wN3GADzaTGOmcek5LLTpGgO_aw-ul-Iv7nnJvb-9SjvV4JCFvyKCREQ0aXibG-R4kuXbm8zva7IBJ3nzXXGYXo0uIKgGgxjWKzc0hsG_gYPRnJGnC5DwOD6TGEhCp_5it2Nh2pMto9g-PDotcGhSdxvRm7StnMSOzfxs8rNvQGV3ptQ",
+            "width": 4000
+         }
+      ],
+      "place_id": "ChIJc5ERRVOHj4ARu2mIe7m3x-E",
+      "price_level": 2,
+      "rating": 4.4,
+      "reference": "CmRSAAAART20mMFh1q--Jxkue6hs1DfO5CDN_ZNWFT2hN4N03nVws-BuiTq_r5ybKR1LfSbkRZixNQCKGCbm9CpewzCezHpga7iHkOfpX2E3KRz4AUbL4kyQ08RzyZUBTu3wOj_0EhDdACKHFpxMiPQTt5_BIJ4JGhRo8iKiRqtVQeZpYDoYkTxu4qqvUA",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "2442a Webster Street, Oakland"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.79692980000001,
+            "lng": -122.4055622
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7983265302915,
+               "lng": -122.4041691697085
+            },
+            "southwest": {
+               "lat": 37.79562856970851,
+               "lng": -122.4068671302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "a561d21276e16528c2b18cf26090ae09938e9e8f",
+      "name": "Comstock Saloon",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 479,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/110471400256790582675/photos\">Comstock Saloon</a>"
+            ],
+            "photo_reference": "CmRaAAAAXFIg5RO7h-_HQ9z-CxxeJkCK7n5AIzwfSyeUm9fcUE8gbPeqt_5xnhWHI5_l2GvuOvA0efzYSsKQrdwlXOxZJFO1Dnagf_BwmvA60KVRKXBpirwqL8WCFbG0Trrbl1hNEhCZ9JKdwFJK2SGYio8oAhZyGhTjFDsnO1JXNwJ-blr05fu10bTh2g",
+            "width": 720
+         }
+      ],
+      "place_id": "ChIJ18LA7PSAhYARZCNy_dme7v8",
+      "price_level": 2,
+      "rating": 4.5,
+      "reference": "CmRSAAAAYp3Vw1b2tfO1EGYWE_w0qXUcOO9Zp_3xLPT3_9JL4GXkQcKbp-bzNU0P6fMsbJHIbzR4ZaU4mw3jM8iWN8fmrI8LqNmufWAOqJpT2U9AfBcLFjmjHbn1Fxv_GaTHxG5mEhA-me9cqlLX5vPSOR96CUv9GhRvpJu_enq5ALykzr_X6wMEH21EMQ",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "155 Columbus Avenue, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.79214530000001,
+            "lng": -122.4020407
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.79341573029151,
+               "lng": -122.4006648697085
+            },
+            "southwest": {
+               "lat": 37.79071776970851,
+               "lng": -122.4033628302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "c06c22ba0da05656d9cc4bac8a5392384029ed9a",
+      "name": "Credo",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 479,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/113281859230474774390/photos\">Credo</a>"
+            ],
+            "photo_reference": "CmRaAAAA9LU5l1AXz2ZWJj9lJcFg5-_yTfM26zQScMX67p33aXfdmeonwCH5BJVdK6Q8NfviRHKFWi9fKXym-ycCKZWCO-TFyAwEKiKinmGnyZSSgl8S74gGYit6rPhGnuYpeAlYEhA32l1aoXBopz2HlTbkbufnGhRLY0wkLHhSx8R-v8IkNwKPbsCgww",
+            "width": 720
+         }
+      ],
+      "place_id": "ChIJIbtvA4qAhYARdnwerOi-f4I",
+      "price_level": 2,
+      "rating": 4.2,
+      "reference": "CmRSAAAAgZDEuyeTPf-TlNWSXOA3q_tCntUdkmh92xO1oYB_aB97u6hZ6yPTpdPqpLhekWsjyyF3TSPBlO88wH9BXs6Qdu74Q8nKpJxyfrbgAyv7A1ExRYP8yDPCa_4h7XgtwFDXEhDcNTszsK2DfCH5YUMpyVPzGhRcucMQxMyiLIb01TXAn6xsFRse8w",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "360 Pine Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.786797,
+            "lng": -122.394217
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.78822038029151,
+               "lng": -122.3927743197085
+            },
+            "southwest": {
+               "lat": 37.78552241970851,
+               "lng": -122.3954722802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "1cd36ca95e7a5cfddad198400ec5468079d2a373",
+      "name": "Local Kitchen & Wine Merchant",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 1028,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/115998031779423434779/photos\">Local Kitchen &amp; Wine Merchant</a>"
+            ],
+            "photo_reference": "CmRaAAAAAuZUexZqLfArogdTkbXy7zs5vNSEY_Nx7lbiJigqJdk1M1QQR_soT9MqZhqSX5EMaq_cArlWqE2oXxmeSXojqGMu-fM7ZD7wxj7uN9f2scLQ-bG2pjvcVvBxx8GvuK6DEhAY8ovd88SmsGr2xYGGBzINGhSdzU1FTcX2I3GA1HeY01KyOidYBw",
+            "width": 1620
+         }
+      ],
+      "place_id": "ChIJzWMEoXuAhYARnGNx8NeVTpY",
+      "price_level": 2,
+      "rating": 4.1,
+      "reference": "CmRSAAAAjRlOz4pFIuUoBrDU5POasX2T62tWPRw73f_o6bHSbVXBK880l-tEPh-elGlqvEKYuSdrNz29PnAYNETB8DSjn2SFIoP6xfEll74ba5O0MoTjoZr8flwv-nQiVSLUrdxVEhDosn3YQ6JsZLVlCoOc_NmOGhSaPBUp1mBL7DT237_YW5Kwba67ug",
+      "scope": "GOOGLE",
+      "types": [
+         "liquor_store",
+         "night_club",
+         "bar",
+         "store",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "330 1st Street #1, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7825768,
+            "lng": -122.4079816
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7839447802915,
+               "lng": -122.4065267197085
+            },
+            "southwest": {
+               "lat": 37.7812468197085,
+               "lng": -122.4092246802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "53e1342ee4b8bff484d9f0045abf64155b6f5a51",
+      "name": "54 Mint SF",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/105603626919803672092/photos\">john wilkes</a>"
+            ],
+            "photo_reference": "CmRaAAAAmnYBDCHWF3TYBWN6KM1uVhEKPEP8covGoTjYVaqk6P7zgUgrzDxeBrveZ2PUB_HIov38afkW0S_wJFljfGm1ePWAghXfaX3YgnVpBrQMpSRw9eJEsJ_ONc3ptAx7rtJLEhCBUVS_Xw9UNsQO073mSLFvGhRoIRR7GpZnTJHxL9NJPBWxJEnVrQ",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJP5PrLYSAhYARBcWhJXs55P4",
+      "price_level": 3,
+      "rating": 4.2,
+      "reference": "CmRSAAAAF1hW_zqRuifxjsMXctCzLQkv8w5a2kp97H7SUUMYVx0KPqHU1yZXNdhn7lMB4_bdlCBDvYUczRqUXRw6NfMF59QhP_JTkqjroGeGVhl81CRt7e3DdZeqXjODLO67o6BvEhAVGRVm2TgvuQRUhmg94nEjGhR31tUx_lUudukb2TzD9gmS8vYDaA",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "16 Mint Plaza, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.78654239999999,
+            "lng": -122.4019862
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7878274302915,
+               "lng": -122.4005581197085
+            },
+            "southwest": {
+               "lat": 37.7851294697085,
+               "lng": -122.4032560802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "7e38d186fbbcaf4bc1cc7cc1f1283a0922d54e24",
+      "name": "The Grove - Yerba Buena",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3456,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/102768325808293101381/photos\">Vedang Sharma</a>"
+            ],
+            "photo_reference": "CmRaAAAA5OPdChJzy7uGifiyfc1Gb7H7jJKWYbYTofiUwtn5UN_6lyluuklkur9mda4Rrj-v8EhBa6ISx8E_RoOFdOsD5-uDcrW4Y-VmURydo2OGmyFAIASNWBhC3RzahPH9xZ-gEhBLQH8QksbFUK-L-8TBurn-GhSzSiOKUbZhJtq0BhPvW7P8jm11zA",
+            "width": 4608
+         }
+      ],
+      "place_id": "ChIJiZyN7IeAhYARnCn-G6GH73Q",
+      "price_level": 1,
+      "rating": 4.3,
+      "reference": "CmRRAAAAusOsoajVozizbFVHBAqnRIZaILzzy7JJzMTHRYe1h9GydUb1G91RMWG9d6eVx0PIXq-SF0xMNgvlZr_Nw2qHJds5lk05popN6t0-iwmzldmkHC9cNPwwzd4M2RzSZ7E5EhCHceCrGL4S72unJQwSaOWDGhSVmR32krHELMdhxo036rIvddlAhA",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "690 Mission Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.79820099999999,
+            "lng": -122.4074094
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7995948302915,
+               "lng": -122.4060105197085
+            },
+            "southwest": {
+               "lat": 37.7968968697085,
+               "lng": -122.4087084802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "3e25c54fc2af778853643e79fc136213b494b143",
+      "name": "The Stinking Rose",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3464,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/105718073650600711932/photos\">Jason Chan</a>"
+            ],
+            "photo_reference": "CmRaAAAAQ475MU139wP--cGlaeU8DMbv8mel4LdluwAghDbgQrCnqSBRYtJxkh9dxJN8VD_ENc8d0mKXFdYq7_fCQw-kC14_nQNjbdh5hdiq9ne2SeKG5reQ158wtjMhpiJu5D_VEhANp8Xt-GsuseYQgCoboppzGhQYm6SGuThevP9rLPrmw9LR9OA_TA",
+            "width": 4618
+         }
+      ],
+      "place_id": "ChIJW52Si_OAhYAR-jAC1-iQh_c",
+      "rating": 3.9,
+      "reference": "CmRSAAAARGg1zYAKFyxBYoyw5TRxALcKo26gO8lf_4n1nc1I_Vh8jyoxv4XgW6N58mBTQBVlEP4B2ti_nAvggbOfJrtmIz_rYK_bn2ejZirXxGL-yd0UXoozxFZyY6IxiZVEA39sEhBK_V9npj9z3czjKy45QMVTGhSpUCuWlpHKu2SuBJe5X0BBjlPxIQ",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "3907, 325 Columbus Avenue, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.78545200000001,
+            "lng": -122.399036
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7868260802915,
+               "lng": -122.3976089697085
+            },
+            "southwest": {
+               "lat": 37.78412811970851,
+               "lng": -122.4003069302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "e36646184af40508e8c102ba1042c7861b52a3e7",
+      "name": "Benu",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/115682834219550591516/photos\">Dragono Hudibyo</a>"
+            ],
+            "photo_reference": "CmRaAAAAJV0svMnXqw9qUF0V6BeZ1ub7Q5QTYDd7ADuPbks-UaiqsqYzBS9LcgEVNRbsy8TFYFhHpgo46SIC0dxuYVhlIwobHx0RKMjD4WIHGfgHXkoQdntEIuNwiFx5B0Okc43WEhBBwc7dcoOwEAOhGerhBqemGhQvpk-cC_-72TrzSl5AbTjv7fEw5Q",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJSToWqn2AhYAR1CuH2iGMvuo",
+      "price_level": 4,
+      "rating": 4.6,
+      "reference": "CmRSAAAAfpcUvcLLBGHi71ZAsV-Psi0xsc2mclqY_FsCvjqj-LJU4Kdl_4TMMHbth8Izfkh0L36aJhQWEraM0zKMrAvejnmur33MnfiylbJyGj5qQwrYShw_aJMM3PV7ImWZfAMwEhDAbwbo8Bju1H-CCpVZVfUDGhRML9w_3q36HF7rn3f31nmQ23aqmQ",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "22 Hawthorne Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7602623,
+            "lng": -122.5050272
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7617122302915,
+               "lng": -122.5036844197085
+            },
+            "southwest": {
+               "lat": 37.7590142697085,
+               "lng": -122.5063823802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "36d38045548baf51322537f71d43eb803ec0dd31",
+      "name": "Outerlands",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/104683760516408705785/photos\">Jody Holman Webster</a>"
+            ],
+            "photo_reference": "CmRaAAAAk1_KNOPpufxpBMM8BgrrSUYp4z420nFORbRBK1aWHCuVYf9QdadHRL095InHz_-3MCwPmmOjIUl4JnFOtczEd-bzqnwk89kUv9uTUBR7xszcK_l_nkbHxomRugVHvL7SEhDQWm1P_OfUwCMIu8ib8FYqGhSstftwGG1Qcv1h9Tl5pybJMRYXIw",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJf-NCNpeHhYARLeneHNw3WWs",
+      "price_level": 2,
+      "rating": 4.3,
+      "reference": "CmRRAAAA69JbuwYu_qIBRVBacV9B1Bg-x-Za9mb7GhRUZFbWL2sqySa0W4FNhmu2-iUFV_5RY9iv1aDBMd0ZB3sLU4v-LUaJuCmDT0vJVRVTwGJuAiw5XHOy6Ag0RFH5z5fikSlXEhC96iz6_5msNl0zT2u_9S3yGhTNrMIdByr9KWfd5cE952I1M1b6DA",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "4001 Judah Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.79332,
+            "lng": -122.392761
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.79457053029149,
+               "lng": -122.3915602697085
+            },
+            "southwest": {
+               "lat": 37.7918725697085,
+               "lng": -122.3942582302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "42c50973585935549eeb897ba49ad83a51be642c",
+      "name": "Boulevard Restaurant",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 531,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/107057514203388562783/photos\">Soe Thiha</a>"
+            ],
+            "photo_reference": "CmRaAAAAIpmzxHstM_qIk_FJyE7wEkeHfYF8IRBxbJTLcLIW75WzR76HDdY_RwMFsWomWhSxCvY3aMxNHh3VQ-lHxoj_GtlPEWqW1OSElzq7AYCSvMH1VJpkr_KWMOOxHynNoK-mEhAemCZojruq4ylv8kRiVR1zGhR2c5miSeW8q5EdutRvejktJ_1hLw",
+            "width": 723
+         }
+      ],
+      "place_id": "ChIJF-zbSmSAhYARvOafjdCRszQ",
+      "price_level": 4,
+      "rating": 4.4,
+      "reference": "CmRRAAAAFqpGRiFQneeafnOGKsK8CQIg2PReNTVl74XwEfvrEgd7ip5v8eyEQwKy4AlWDr4Dhx2uWRD7v2jjBNY7_dr6h7ru1Hfe_QBRzcmLT-rjffMK2SOFvE-iQnyvEbNfS6t-EhBp35jfxM5dZt2-NTRl3tz6GhTAlhh_zfoDQn1EgF8MD5p3-XFMbQ",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1 Mission Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.784727,
+            "lng": -122.4176594
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7860759802915,
+               "lng": -122.4163104197085
+            },
+            "southwest": {
+               "lat": 37.7833780197085,
+               "lng": -122.4190083802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "39a754b7977d309c3c4bd38925f52e6d3a4639c0",
+      "name": "Lers Ros",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2880,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/106633014481988554125/photos\">Artem Kevorkov</a>"
+            ],
+            "photo_reference": "CmRaAAAAPteSGWgDF9M-z3P3EYb3VB2BuKatjFgD6qtEh5MfC6ynVwO_z2gNI0Jfrg4cIktk-r5ea6V5hkLHh_TGyIiqw8yypt1nGA1UpLFXIJ5jpKly6YsvFGViEh55Lk1GBlyDEhARKFjyCdEtq7hT8YMk9gItGhTqdi3oRZifHytddR2RwoqJWoU7xA",
+            "width": 3916
+         }
+      ],
+      "place_id": "ChIJZduCKJGAhYARueNvSMvqsUI",
+      "price_level": 2,
+      "rating": 4.3,
+      "reference": "CmRRAAAAv-5tMQ4FGAwhSTAO0tIQESAk3p7I_QkyFRHoW11koq17UZQiUC7bvsnMIyiEbjCr_ioDEKz4hBmYNUWtShBrxRlh9SJxdrdtAEFQfVy4kv0Fc3oEST8SVUZR0mOSDxLfEhAGlCKtTm4U6K7p6n9w1lYSGhRfaV-ht-hjEUPuv4bgwDhmgE9x0Q",
+      "scope": "GOOGLE",
+      "types": [
+         "meal_delivery",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "730 Larkin St, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8010894,
+            "lng": -122.409101
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.80242318029149,
+               "lng": -122.4078674697085
+            },
+            "southwest": {
+               "lat": 37.7997252197085,
+               "lng": -122.4105654302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "ce917697b54191490dfe5389cabcc0f16e956fb3",
+      "name": "Park Tavern",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/104433966953798780419/photos\">David Shih</a>"
+            ],
+            "photo_reference": "CmRaAAAA_tGF_O02miSAnbtiRwCemBE3fPM8HNtxxGZhlol2lxdhkP3AN_MlhKmZJF2nQB7X0TlC-NAuWuNamBGVQextQv-sxkm3AYW5NPtaYTKtMS0Ds2N0BEl9SXmY9jBc21fYEhCyw0Ubj9c1uSnq7cC76ypkGhQbRIuSW-23Ukq9dTZWrgEvzTcBuA",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJNRipBPGAhYAR1qLFGG_Tby4",
+      "rating": 4.5,
+      "reference": "CmRRAAAAlmA0gKvdgRhrC3_mQSa8A5S5c9BTx3mL4FKdbeZNZtKfm4kAfcvYqUZmGJcPu-NRwU5L9SNzc_jt7kgpeKTpXZNqk7VfzFhZfBiSFBF9tv4soJRwoXe6mWNMwtLDvPpnEhCdcfWd3mht4hY-IitxIrH9GhQSJM-WW4vXGoh0l2ZV-qf7c3spqw",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1652 Stockton Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7841179,
+            "lng": -122.4064352
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7855898302915,
+               "lng": -122.4056867197085
+            },
+            "southwest": {
+               "lat": 37.7828918697085,
+               "lng": -122.4083846802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "25d4bf0577c1d6e6c1ad6372dca5c4efaa5d74da",
+      "name": "Westfield San Francisco Centre",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/116143289369619622845/photos\">Vijay Pawar</a>"
+            ],
+            "photo_reference": "CmRaAAAARTu7LKZUyNK6A_tPj0IAGeMO3k9cKnqJrsKw7hhy3igBzCdwszhoqaxbOEpkwiO1RBspLS4bPvjgdtatIro1Ji319EhO-llTBGV9YNv5PGqNfGKnj-yYoGZ4nbkmy57ZEhB9_mmda8iQx0PTZX1Tlp9gGhShdzJjnmN7fz5YqtXGIBA7f2Y61Q",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJ6zMe3oWAhYARaZ33Z1BAMRo",
+      "rating": 4.3,
+      "reference": "CmRRAAAAWPUgCAkHII7YpxPJ-8iRrnddZ4L5hXW1iauFD7N8iJZ-blh0D72vHdqDTZdZhSkU4NfPm97y71GqKNu06bE_2fBigOUsOhwokz1QQCwTv_FCKUCtcgt4iOfNh9h_rsruEhAJ6yUOwSdIsaQZjwsOAxOiGhSfHUkUj_xiS7cgq7Hvd7SAFu31og",
+      "scope": "GOOGLE",
+      "types": [
+         "shopping_mall",
+         "shoe_store",
+         "movie_theater",
+         "department_store",
+         "clothing_store",
+         "store",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "865 Market Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8001782,
+            "lng": -122.4106429
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8015748802915,
+               "lng": -122.4093036697085
+            },
+            "southwest": {
+               "lat": 37.7988769197085,
+               "lng": -122.4120016302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "53ea117ba3e71e6fb78882ff5e7e46e635de8cc6",
+      "name": "Rogue Ales Public House",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/108824575448238599973/photos\">J David Whitfield</a>"
+            ],
+            "photo_reference": "CmRaAAAATnILmXvlAK_vQmA9st9nqCHpUDiVdb1afZQ-S-YPSlz0kJwkuahUb6hC7Ezk-n0_gCX44UxT4c8A-3H1HNBWmwUne6FKJY3uyJg6-0LRa8h9evyFFonzHw7fNTsjw7rmEhB1TaSjT7-xU4I9kpUyO-WqGhQvj2RvhqcflbWr2Nl27IwTgsY-wg",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJK6Yru_GAhYARLzuWvZIgCc4",
+      "price_level": 2,
+      "rating": 4.2,
+      "reference": "CmRSAAAAAkAD8qqalwfFSIbvxsdcuxDzqHimhb2nWleEdXX2SDAgqT-WH5fOeAAgSa7WQDYGrlHTzSAGIgRqQamxuEgreQi28u5WXMGYLhIcCbvIWqXj3uI4oHTeiMGOimgvKpm1EhA28JIYFLk1O048UiGTSONMGhRU1rJjIeeAQPcyukE0LvRW1AqVSw",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "673 Union Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7601026,
+            "lng": -122.4142258
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7614662302915,
+               "lng": -122.4126321197085
+            },
+            "southwest": {
+               "lat": 37.7587682697085,
+               "lng": -122.4153300802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "84b5f4aabd4936c5ce51223281761ca0de53e087",
+      "name": "Southern Pacific Brewing",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/107443957888489784497/photos\">Shirley Yee</a>"
+            ],
+            "photo_reference": "CmRZAAAA5LqojCwZClmw8cgSvcEJbmz8f8_JkDWxA7KrTzeeOLSDJa8sMpCVMXu4qZuM_qmEfR4SN7nUNMh0GnV3ydzBwzfC_78zcAruiJigya9mrzwRVyEvCFQzdmdzCUh1rtT9EhAjEnm5hLloD2Kgxn-4CiSGGhTexRW5M9kDUsUOfcDs-ooNRp1kiA",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJn5G9Fzp-j4ARRs66QTw4XAY",
+      "rating": 4,
+      "reference": "CmRRAAAABGLVRhRsiirK6VT_uHgahjG6knrr05rKVcsILou5QyozM7nDqI8yv0QVNr7bvOpa9kftV9xIXNq7upvMJSFL3LSYtudWR25ac08IZI7O4XnPFPWJ0xbn0k4-p9A17lbuEhCTYkOYKon1ONDydd92wXK4GhQlgUhp2dG2rMi7rkoin7d9WkMcbA",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "620 Treat Avenue, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7934429,
+            "lng": -122.3993731
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7947232302915,
+               "lng": -122.3980101197085
+            },
+            "southwest": {
+               "lat": 37.7920252697085,
+               "lng": -122.4007080802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "00c270c911a4e5fe3c83dc39e087712f467776f9",
+      "name": "Perbacco",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3974,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/104096781519454808462/photos\">Marc Becker</a>"
+            ],
+            "photo_reference": "CmRaAAAAtZ8IH1r4fQF1MszVRLkuSa9Xu58e-sEED-tBkKjQoFxshXl1BStyVN6v3gDRsjM1lR5SQsroS144Tlo2lFx5JaIajf8CkrnyLoaKnG7uKKz7WmCcb86q3XemFaP8qRZmEhA96AiNzWFRAvbsfuu4pyPXGhSBefzKS-6c7G2NezpiQ6UMZrjeZA",
+            "width": 5992
+         }
+      ],
+      "place_id": "ChIJNy8VmmGAhYARQF84_9twEc4",
+      "price_level": 3,
+      "rating": 4.3,
+      "reference": "CmRSAAAAGLAZeQOJDwOaK_oKJlFdqgUq6L9GZWgi7PY0Pp1JGwBQrWzJmdzOoyHrxEa7fvwPGP8v4bRW6xUyNSWzbwBhldwGKz72xWM85u51cN8bfDcPy37ETyVUKHNJuIoPzH5bEhCHtQUczJhhTNNtgxF-yURoGhSHZMl_9trKy1chpdSGZBTV7xXXsg",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "230 California Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.787139,
+            "lng": -122.408884
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7884879802915,
+               "lng": -122.4075350197085
+            },
+            "southwest": {
+               "lat": 37.7857900197085,
+               "lng": -122.4102329802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "077779136318e9317eb1e188cf754f1220ca13e1",
+      "name": "Daily Grill",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 667,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/116710339701463369249/photos\">Daily Grill</a>"
+            ],
+            "photo_reference": "CmRaAAAAeDclPSZPigvuEdj8wQiJYrnTsjRCSJNI-qNGvZJli9Arub06iWEQofwq7SfCJgtKUGZPu2wqQEA1dPPdZTnraW-nSdqactjPgffQGW_O5Lu2nSB4XAZmlc-O9eQfQpROEhDH1Tq-x6Z1NO7KYqQGppMEGhTqn5oZ_TJMFWuC-Hm-5a2CAP5U0w",
+            "width": 1000
+         }
+      ],
+      "place_id": "ChIJl7zcHY-AhYAR4rDx9C6-N4s",
+      "price_level": 2,
+      "rating": 4,
+      "reference": "CmRSAAAA1Ljt39CyvJcTit_hVjL9ZKy_rx8B1ar6M4VyQLwYWgjk610GqvuUht0P1b6Hjzfkduh3Ay4dz7mQD_Ya2iCH6ceJVqkIGmdOI9cVuyrXKWPLT-4J20peOTkJyhZ3Ri4VEhB4mt2vHdwEqz0gdOzOr4eoGhSw1EMJtAtnd-S2YEjqBe-16jtE1g",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "347 Geary St, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7956853,
+            "lng": -122.402855
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7969880302915,
+               "lng": -122.4014976697085
+            },
+            "southwest": {
+               "lat": 37.7942900697085,
+               "lng": -122.4041956302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "06b310d0e0e3b347619cc46779a11cc80d8e29ea",
+      "name": "Taverna Aventine",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3168,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/116557673016611373126/photos\">Taverna Aventine</a>"
+            ],
+            "photo_reference": "CmRaAAAAS2xwgyjO_Aaf_Hj9i8DdvySOsYjOvk3ZjqaeS9POF_rVt6Rhzo0fQKwYr6PSD-kfXbsGVnEhCwwN9w60uzvyDYDt3Vph8NtfALGBOdMfT7lN5w-iFJhY4bgQ5d7YRKZDEhC6miFc4ex6UVx_diNqxOzxGhQZs1CYtoK8lgH-uJwyxwQ6Ju4Pmg",
+            "width": 4752
+         }
+      ],
+      "place_id": "ChIJk2EFyIqAhYARXlKs2zO34Fg",
+      "price_level": 2,
+      "rating": 4.2,
+      "reference": "CmRRAAAA7pbsWlMzA0yH7WgGkVLzGLp6lwfM-GK0au9FcyTGaLrez0fg1Ar8a1JwIayKdoVjUJxyayCILYdOt4ghhnkedIaNlFpG7NU3E4D2AUlqKXn4wbJVjcxR6aKjx71QBdhUEhBZYjfCKAQDqFdZ4Kpo4jijGhRxT4ZHLC4phwZPm5cKRkJSWQPIKg",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "2929, 582 Washington Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.76101740000001,
+            "lng": -122.42133
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7623600802915,
+               "lng": -122.4200841197085
+            },
+            "southwest": {
+               "lat": 37.7596621197085,
+               "lng": -122.4227820802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "11bb748938ed04f4ee4b90848cef03d782b17380",
+      "name": "Tacolicious",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2387,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/106633014481988554125/photos\">Artem Kevorkov</a>"
+            ],
+            "photo_reference": "CmRaAAAAG6kEbSyehldUmPkrRrBmBcKd0vKUEuvvsed3lGM9gSQ-HdVtEyMCbpnsAawmtyEjrDWv8MzZU_AzF6uHMBdqHStbCr9EI_5mqOyVVJYtUyo7cEr5L3fuyKVPyjthkHk7EhDi134F5S_FdntXBy7RNrSXGhTWlpu2Rouzys2VMAK4w3lgwK0EUw",
+            "width": 3471
+         }
+      ],
+      "place_id": "ChIJaQ1QHj1-j4ARGwFcVV3HM9A",
+      "price_level": 2,
+      "rating": 4.3,
+      "reference": "CmRSAAAABqAsf0cMoEJtOOdOS9Ii3g_X6_xmcLGpmJ4z5jYX8cS13h5t-n4gDvtlSXFqwq35krR95MzdRDxTule0TNsQquE278ney4gMR-ot4mORvAyJp0Cdjz2tpNu05Trc4r6mEhAvvJndDeLRHLbNA1U9IwNpGhQVfiqqV8jMs9jSTjLogJC8hBkdrg",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "741 Valencia Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.78016369999999,
+            "lng": -122.4161985
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.78146613029149,
+               "lng": -122.4152199197085
+            },
+            "southwest": {
+               "lat": 37.77876816970849,
+               "lng": -122.4179178802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "0c42cfe47d7a5fdffb94b488d49f1a86c76ac823",
+      "name": "Cafe Asia",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2272,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/110480654592016169987/photos\">Catherine Choy</a>"
+            ],
+            "photo_reference": "CmRaAAAANMBCR8HO5XbUjP-W2GDoRSNd5zgSoW3OXzd0gksblj2RfyN9jDZhcE0elOlcLdkhzGU5QzP0jPh9W_lboP_yLdBn6KN0EljvlPAcZas0VURe-kYUYdK5fvujwR-Q1dJ8EhB114FAWDK5JgcMhUwEawsCGhR7SbSlsDhDPppSYLGjHDmOLxYUuQ",
+            "width": 3264
+         }
+      ],
+      "place_id": "ChIJkQQVTZqAhYARYZQeCiUWMPE",
+      "price_level": 1,
+      "rating": 3.4,
+      "reference": "CmRSAAAAV8Vgnj7RLmv4mWjjNBJ5936_3JP4YRTPc6kiQzzVFfENHLrKaNJdoEvBHe6PDooyF_-IHOz2dF5Q5p12LdCKiatdUZZu0h1O75nfUcAZGGHZSJgD0CuyrWkj5D6O9xAfEhBrO7a1wu_j06hHoZ8t204OGhQLA5-QtAcHE06E-UV12lGrmrMtfw",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "200 Larkin Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7774628,
+            "lng": -122.3951578
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7787568802915,
+               "lng": -122.3938770197085
+            },
+            "southwest": {
+               "lat": 37.7760589197085,
+               "lng": -122.3965749802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id": "977b70880f1d7e60c5f2f085042f2ac1ebd5326b",
+      "name": "The Creamery",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 608,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/114821914347282398352/photos\">The Creamery</a>"
+            ],
+            "photo_reference": "CmRaAAAAUiflvUiLuvrMgefxZAoATTmhUTccY6yeQb6arck3K5NCN_6kFYOjcA_58LAwSV7jxZN1xuk_z2z7GTuZcVeEW2B7dAp6aZAiHKAXWocng_BWm1_VFLum0yVNTY6iw64YEhDoo-0-1Q8Je8aPZsm29lv2GhTb002lXQIjiG2OUYEvDhLFhE9znw",
+            "width": 1080
+         }
+      ],
+      "place_id": "ChIJ8YUefdZ_j4ART8gb7SJeblY",
+      "price_level": 1,
+      "rating": 4.1,
+      "reference": "CmRRAAAAGPKVajIh5kpKsSN_zGyaA_itPPw3afUjcZdayMCIk-Dc17PD67mrRkaP44vncwcPj5PhdWOx23g__9WuMV4o_aGo10wd1tx0-gFtVpHCNSMUvqznWvOMfeiNCxVX_sMQEhCny9fwRoCSZLPqSrx1S5NQGhQmbgITOyFTEiOQggltI92GdFA6wA",
+      "scope": "GOOGLE",
+      "types": [
+         "cafe",
+         "bar",
+         "meal_takeaway",
+         "store",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "685 4th Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.763927,
+            "lng": -122.416716
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7651180802915,
+               "lng": -122.4153489197085
+            },
+            "southwest": {
+               "lat": 37.7624201197085,
+               "lng": -122.4180468802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "ad15e6e88662b45aa32eb63c3d321484f20991bb",
+      "name": "Mission Bowling Club",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2448,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/110085784980279203170/photos\">Wing Lee</a>"
+            ],
+            "photo_reference": "CmRaAAAAYUHd99SsyAYLpau0r6ljSQW-C-_PMu7tfBu-yMu5lQzJa8EPH_eED0c1f434qpBUYjMbhQZ4dqoaZpFJ7zUrLWZN2WL4E0ER7_uCaxHSDNVdh-1_BtCyfooPKC_Da7KKEhCyfCUH9ija9Y-kxSE-51AnGhT-VW_RjO_3-XxaorWVekaQdE-0eg",
+            "width": 3264
+         }
+      ],
+      "place_id": "ChIJ10DmyyR-j4ARBZDBrVVevpo",
+      "rating": 4.4,
+      "reference": "CmRSAAAAOsCvBp0wlEl4iKzdnD_mr-KAziQUyikOf_QVD_VgAYIHFgi4hwzQb2qO9KqJIVwfRuCx6xIPcaWF_uZvgWdthZe_etGXwAetIrOhhVaDP9vQM0ck_TmNj-ECY5DGNoz1EhCkE6GctcR7wQD52M_yla3MGhSg-VV5gxygWtu017uzozxZfV1qTg",
+      "scope": "GOOGLE",
+      "types": [
+         "bowling_alley",
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "3176 17th Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7781821,
+            "lng": -122.4217949
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7794421802915,
+               "lng": -122.4204277697085
+            },
+            "southwest": {
+               "lat": 37.7767442197085,
+               "lng": -122.4231257302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "9d8f15a1eeb97beb2644f06bfa08a72384c4fc2a",
+      "name": "Jardinière",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 540,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/109423584357947238040/photos\">Jardinière</a>"
+            ],
+            "photo_reference": "CmRaAAAAAzA1BBVp1H3tZ5tlLRrRxWw0YEy1dGn4A5Rl-rp-RKEb_i2nu3LMlHeRuCeJRtOjgFRRBT1Gah69iRnZAYYytBGL7iUuLd9oH2z9IPDCsoA9YHYcy1CFJFYP8ObhdNfpEhD8x2Glbb0w3bKtP1MdTD1-GhTl3kAEfyaVLiCTYQkM8DRCkqv0gg",
+            "width": 924
+         }
+      ],
+      "place_id": "ChIJKxsc-5iAhYARt0aq9Skp6t8",
+      "price_level": 4,
+      "rating": 4.3,
+      "reference": "CmRSAAAAfCmUs0iAalFkYGYRgLExiwld5pIwUbZYdkH0Dv1P4vMDWsX-5mG4Q8MHc3vdnZzMMaXwgdHolQzLpinRBBiOXgxQbBbpyNMc09Vgc796WEnuxkK4MSq96UJjhVZ8r3wGEhB_5PXhBxMF_lBwuaIpN7yCGhTqh4PbDKYBpYYd2QfxgGQHhbobMA",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "300 Grove Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.78717699999999,
+            "lng": -122.412987
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7885079802915,
+               "lng": -122.4117770697085
+            },
+            "southwest": {
+               "lat": 37.7858100197085,
+               "lng": -122.4144750302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "45580c573e273409cd453c041f8f2938a3efc34f",
+      "name": "Jones",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 4000,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/117162507282113102399/photos\">Jeremy Hylton</a>"
+            ],
+            "photo_reference": "CmRaAAAAQGLHqyDBuXAQ3gMc9I3vHQ6ZdV8iWcBM4E_cLFcsWhkHLX838DsZ2SuwcjgGvddA5Uc10-q3n66cZk4nHqJpU0UlczLFuMn5QFE30RCmImTi6-KfCVevlUbSnWx1psqeEhCoK5knOCQpjA_yr3Bpu7p2GhSVLXvSF630ufDBqjURZtH8E1M3zA",
+            "width": 2992
+         }
+      ],
+      "place_id": "ChIJPR_P35GAhYAR6wRwwtF7pnE",
+      "price_level": 2,
+      "rating": 4.1,
+      "reference": "CmRRAAAA29MEipoe3KTHFsPDRknYY1pzMYZRYD7J6V-JXA0MTwDxACoqrqdUGuQEjmB3A22mxirZbyd8sLxdtdr9lsmSBw8N5S_Szh0dYM_5VGerXzF-hzQ6z30EmPWvD3OZtqNBEhBK6AS7FJvaTEY5KqODAV3EGhSSyYcUvdoE9T5m2xsSgYXITOXBHA",
+      "scope": "GOOGLE",
+      "types": [
+         "night_club",
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "620 Jones Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7784764,
+            "lng": -122.513963
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7798636802915,
+               "lng": -122.5124522197085
+            },
+            "southwest": {
+               "lat": 37.7771657197085,
+               "lng": -122.5151501802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "e3655bbdcff586a76a85443a2ed7cb04ca2838a1",
+      "name": "Cliff House",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2448,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/102680249213328416583/photos\">Wai Ki Wong</a>"
+            ],
+            "photo_reference": "CmRaAAAANlh_urXnmdpk4K3XfM8t-02IYjm7yNSObIvqHK1sVZj5uv9uuZuNtk4FNEFnYZWVXRuraF5SsnGJbkGgqditpYEN1uajHszEcHZUByhlwM1w8UKhoH9ZSKpZqiFbCK94EhDlNB5O1jBRCgzGYIdabKSuGhQKKoA0M9VnHkJDvn_Xi48UgUqOiA",
+            "width": 3264
+         }
+      ],
+      "place_id": "ChIJ7dtznbWHhYAR81fEwzi58F4",
+      "price_level": 2,
+      "rating": 4.2,
+      "reference": "CmRRAAAACXlDOqxpw4WPzWfrZ1PCNb4bi3gCJhbtmB6cXEsaeCvTrB1T8_F45KfxY9GuhmCMHdZw7TR28wwZBhdlomiOJKuUpfLXQyqPG_SUaQ42rZTiYAQhs1M4kuzDdLRsjGF4EhBneaLbq_TLwDb8gjSXN8uzGhQsoUOT_CUMH2JN_6IiMQISmPj7zg",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1449, 1090 Point Lobos Avenue, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.796237,
+            "lng": -122.2785532
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.79753958029149,
+               "lng": -122.2772334197085
+            },
+            "southwest": {
+               "lat": 37.79484161970849,
+               "lng": -122.2799313802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "8ed967c08d863753b706b617b2e791e6191f2140",
+      "name": "Yoshi's Oakland",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2322,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377/photos\">Albert L.</a>"
+            ],
+            "photo_reference": "CmRaAAAA_sd5qtH_9BR8HtkW-G_el8WZrIhscA_Fyh_f3h15_3d8PhZ8wg2s9ZK_W4X-81H5mqM5AjL9QIZVuZCB891S22mfqoSskdMhDj-7Fs3NPVZCtI0rMC_8GZiArZoQFgSoEhBuIPNW6bhG4zzEjxfiwtwPGhT76LcNWT9pnw2f773ssncDlmBtGA",
+            "width": 4128
+         }
+      ],
+      "place_id": "ChIJxyGNjMeAj4ARPsZG3cEG1Jc",
+      "price_level": 3,
+      "rating": 4.5,
+      "reference": "CmRSAAAAGwo-oeW0k6LWVFSdnyLHgmuGxhqrG30w0wBsnwglyP3VCoibdZgt6xhzufIlNsFbyJRoYzAXTAbyWLrLKP-KzwKo7taUKPOwDgroi624JuysullgqnxusEMrpYmmPDwOEhCBdYhmIV2Md_EgWYSwZEYIGhQkvljR92Meqhos4iBALuTY4QtpqA",
+      "scope": "GOOGLE",
+      "types": [
+         "night_club",
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "510 Embarcadero West, Oakland"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.79414139999999,
+            "lng": -122.3947602
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7955917302915,
+               "lng": -122.3935369697085
+            },
+            "southwest": {
+               "lat": 37.7928937697085,
+               "lng": -122.3962349302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "4baf80112737bee1a97821ca44a2896c0f79eb1c",
+      "name": "One Market Restaurant",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 640,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/115232044672460901645/photos\">One Market Restaurant</a>"
+            ],
+            "photo_reference": "CmRaAAAAEwbQOTvPldI-Ys30RKruEd0LMRoV0dng-ads0KFxt-D4cMy-ACmykqwa0z6TwWn5nyHPaVPt9i5GnKrnMt73iyMXeiyMfh1wcd69LCfDGyY0bZoSoHzz6kQFXBXaiWwKEhCASn9WrP_wfaB2eKFyM3BYGhSNRY51g3VMfES-HPRuWvevu3Sm8g",
+            "width": 960
+         }
+      ],
+      "place_id": "ChIJDVK5qGaAhYAR_goq49KaaEc",
+      "price_level": 3,
+      "rating": 4.1,
+      "reference": "CmRRAAAAjZbzl-DY4YiUWAFpK_VqVv0ncQiYZKmvWlzG-bi2c7_X4co-4Xnh_Z6UduovK-3bDEGTXBQ84nyC7W7N7B5FcD4fP-HBmWlLzFwfo11u45tEwpxG2yLB-9w-f8Bn1LuIEhD1JAd969C2Vt5fJIF9LkMJGhSiuW5-rYT6i8RSW7LA2yE_uOJ8Ow",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1 Market Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.79434500000001,
+            "lng": -122.397038
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7957971802915,
+               "lng": -122.3957125697085
+            },
+            "southwest": {
+               "lat": 37.7930992197085,
+               "lng": -122.3984105302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "db077660a74b9f46181b0c3c8e084d2fc9849525",
+      "name": "Focaccia Market Bakery",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2962,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/111864772445464615730/photos\">Sean Murdock</a>"
+            ],
+            "photo_reference": "CmRaAAAAUfUyV-gDIZpX53zXE8QkKXNWD2eUY_eqV96LyB70i9cpMmfNIEVymY-LjXleguh5xe_gh7JVB1qTvmClxR_Z6J1vugBb19EwZk2G7Y2DRXHB0iChb1ms6ONAX-lemER7EhBvmloTNcCm6pzyOMcCQm2VGhTwszmXQSA4U511oxoqjICx-UeBeg",
+            "width": 4963
+         }
+      ],
+      "place_id": "ChIJkztvQGGAhYARS9PBosvWB5o",
+      "price_level": 1,
+      "rating": 3.8,
+      "reference": "CmRSAAAACfnmPbAGPzR7FxmcK79Kkh5GcHds4THC26SUNoZvPDxfb5OZwKWdCXwapBDnzR8HE1UKgZd32FIitqtCQRXziyvcxx5S5T1FMmj0T1QRNEjnhXLtBZrSZyTRb7dPyz73EhCTbL6vumN5Y_8tbfl8ykfzGhQq8E6BnUfuSW70sXHe90ytuvzX3w",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "119 Sacramento Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.797759,
+            "lng": -122.431837
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.79901418029149,
+               "lng": -122.4304690697085
+            },
+            "southwest": {
+               "lat": 37.79631621970849,
+               "lng": -122.4331670302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "23994e958c22b65e5e2c3064492d0654ceadb611",
+      "name": "Extreme Pizza",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 1000,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/105414958891696794059/photos\">Extreme Pizza</a>"
+            ],
+            "photo_reference": "CmRaAAAATlSGhbF0xWmsc51fEQyNkw1-uCmVdrIq6tJVg6JHgJMHXeLz_g4rGn7glFHWeLVEo41G-O1aXG7oFBDuloDZ-fjt5QsU7AgTlFH_ElmWb6YVUTnCgMYdgKFI7l50jsvmEhDAp8Rn4DSCnYAsMjZ-jsA_GhRccnlhI4Ft8XqjYlhJBn0PCuK7cw",
+            "width": 1000
+         }
+      ],
+      "place_id": "ChIJj2vPJNuAhYARSgmTp9KnaxQ",
+      "price_level": 2,
+      "rating": 3.6,
+      "reference": "CmRRAAAArww3cRztBcdQPK64TRGnmUqb5skIIBPvHTPhaSkw9aJbNEX-NGZ27ZrppIm64abDcHCDvRmW99xWHMgN6pDfCRg1Mmh0_rL-qcALvXV1OtOfOf-64HiGdkvhIzptlNxzEhBtz6gR8Jbfi2omSLFq9jdgGhT_ii5O3okQ4f8TzerAFpfE1JOWzQ",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1980 Union Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8715656,
+            "lng": -122.2686303
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8729263302915,
+               "lng": -122.2671363197085
+            },
+            "southwest": {
+               "lat": 37.8702283697085,
+               "lng": -122.2698342802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "614a2e4e873836254671e65b966853e930f5e9b9",
+      "name": "Comal",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3036,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/103647928455294277946/photos\">Johnny C</a>"
+            ],
+            "photo_reference": "CmRaAAAAklj3t5PqDoawoVoHQ0JNpuuVvDsVYJSrE3UTAEFSSs9DoRJSseSgpRZLQoIpvdJSh9Lk0P1znWupwWHHB_hT8GCl8TCzyr0Xs3eleX1EsxO-p6E71tV1hjprI5Kukj_wEhC_lZQLQp3TIlFK0xmNVAmoGhSZNtRCC3VEhU8pVl6RkJQ-tmjbBg",
+            "width": 4048
+         }
+      ],
+      "place_id": "ChIJw3k8iZ5-hYARJSkLTdSXbls",
+      "price_level": 2,
+      "rating": 4.3,
+      "reference": "CmRRAAAAdfXCdZqpcGDn-f09pcrMq-YXZW7Aex1s4JC9QwN2NmrSpKRTlmMCclEcU2HdQNYgiX_00PXPoClKu2MEOQIgjYOChllflZLrKNjXgBhsLK9SyCS6cbiTZSnNCW0hd1geEhBZNw37ZGwAwr5Rs115-pB0GhQVlGXXez_XVMQyGzb0aTpExZSy6g",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "2020 Shattuck Avenue, Berkeley"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7949305,
+            "lng": -122.3958876
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7962794802915,
+               "lng": -122.3945386197085
+            },
+            "southwest": {
+               "lat": 37.7935815197085,
+               "lng": -122.3972365802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "0de636125776ff03ece55eecb386d4d4e30cd58b",
+      "name": "Sens",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3120,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/113184694686529989369/photos\">Imran Yousuf</a>"
+            ],
+            "photo_reference": "CmRaAAAAEATDFCMYocp-G_AuAfUf0p9mDj7uvwgRAx6rfHjVokkfNNnrsK8copYlSIcyi70TrUvYxUqvjllbteQRCiNBOf5NLP8q_ADdAbCbPZG5UL8jqbt1eUZqOO6k47PvXcFNEhDGTJgsvQ-iVU-era3r3jQTGhRZiFULf77RxA6HH2tLCTVxjJurDQ",
+            "width": 4160
+         }
+      ],
+      "place_id": "ChIJBVDZR2GAhYARCy82N8HgD5I",
+      "rating": 4.2,
+      "reference": "CmRSAAAA30KRXBhkUGl0RZki2AeXQg_mQyZeFyh5CyrKzgd8SwSwbNbYGV69NalxMhj8XP7nymywOJCsCSuSl1vCdQegjFP-5bv7G5u2Zia-AV8GFDYithawnCoBSpTROHc_rhokEhCXxnvygysHm1UkICqU-WjHGhSJcaD_QwE1NCFJa7XAVwFkkTMbjA",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "4 Embarcadero Center, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7736059,
+            "lng": -122.4216261
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7750193802915,
+               "lng": -122.4202110197085
+            },
+            "southwest": {
+               "lat": 37.7723214197085,
+               "lng": -122.4229089802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "112226e5b074c6d767041d2761863c550d8a5f26",
+      "name": "Zuni Café",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3120,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/108535967119249136387/photos\">Ayres D&#39;Souza</a>"
+            ],
+            "photo_reference": "CmRaAAAAhzn0KqwH1JzSyVhFTDho594nc9aHMmhgEh23zpt-_rqbyroTeLOeqco_Cl4PbmXiRjQOesmnVtlaXOCFrs8wMg6R8zJxhsXnMMNTNOQ9QxrR6rMDPvTMUnTEci8ndAJhEhCWpkM1q3EGnLagdIOWgCcWGhQxwcKUNKFsuN2gvsbqZwrOfGb3kA",
+            "width": 4160
+         }
+      ],
+      "place_id": "ChIJO7u9q5-AhYARiSSXyWv9eJ8",
+      "price_level": 3,
+      "rating": 4.2,
+      "reference": "CmRSAAAAZ6_dexM2P2ZM20XFGlAyl39Ojn-1vKa6kKsxV3s06oPZ2wg1P21KJk66tVACufrwdWM4e5wLjAkUQ52JfdVK1DZHVqptHDjZ9_9nYWtSNyEE-iIg-mcH8DkRG_eZzrp8EhBi7ke0YvaUF4yaNdzrAidgGhQSKxYanD7zqvR0RvszMZmwsz3PjQ",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1658 Market Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7984468,
+            "lng": -122.3964846
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7997397802915,
+               "lng": -122.3952415197085
+            },
+            "southwest": {
+               "lat": 37.7970418197085,
+               "lng": -122.3979394802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "573269dd1abf36311a2911cea22c4cc1d081203a",
+      "name": "Coqueta",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 360,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/116708553985821603466/photos\">Coqueta</a>"
+            ],
+            "photo_reference": "CmRaAAAA3v9awGl3PS9dNc33u4xDEBDvTvQOj2wjmB5dF6ts5chBMHMR3B6FJelZJzIWCWmH7wKoVWx5ETZbNhX1AZNT7pFTbjsXr86-izQqBqxlO1VkGh1QEN-5rQ3XHBYxpmHrEhBkizFONebl9dVTCn7y4HK3GhSyVSHXvBcb5hlyhYS61jcDu6CuBQ",
+            "width": 640
+         }
+      ],
+      "place_id": "ChIJA8_SN2eAhYARCIvEx44Zvfw",
+      "price_level": 3,
+      "rating": 4.3,
+      "reference": "CmRSAAAAF3m_UP4nQuX5LCduZgroGPfi4ti1XN1ra-UOfqVAqtYl9HjQQ_CSj-GW7brSXJHg_W_Tt0VgEm6V5n8WrV6S9aHOMN_7x4GT0vqdZy3Sczoe0-_pNipvropZyGWFmXv_EhArhliLhR7S4oOJuST3791OGhQV7OiGuEOPM41jE1rFqlEo-VHuzQ",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "Pier 5 The Embarcadero, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7970291,
+            "lng": -122.3999589
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7983084802915,
+               "lng": -122.3985951697085
+            },
+            "southwest": {
+               "lat": 37.7956105197085,
+               "lng": -122.4012931302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "d778bfa8ba8dfc5d753d7d789cab0d7c790a56f2",
+      "name": "Kokkari Estiatorio",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3096,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377/photos\">Albert L.</a>"
+            ],
+            "photo_reference": "CmRaAAAA9bG3WM-yX6w1h8N0dPtFYgvi9vs9hkz3dETKpM_856ep8VkIBzvIMi1PkpmXqkAF7hgprQLZo5cRZcynA2WttlsxA4LNCEWHMhyJI8H7LWgz3wuj-J3eV3DtphFr4oXoEhDzGlUH0KoQck_PXyjiXVo5GhQCyUnHbKHzD9tCvbLP1eBcKVTq4A",
+            "width": 4128
+         }
+      ],
+      "place_id": "ChIJTel9dGCAhYARQGwrTfGZ07M",
+      "price_level": 4,
+      "rating": 4.6,
+      "reference": "CmRSAAAAZ_ZYp50baz05VDj3WjJsu-pOZ6UhyGzyOOs5iI02LcoC_KHI5DPzmAU0lXuRlPpNC2JjF5Ane6YEfMSmWpXsuVHRsTKXBSoGvgSZwGaAXiK0WNMKkwc7oBWB4UwKB73IEhAZ4DR4Np-FBFNqRdHrDJ1yGhTWY6LyZkIGIyMn9Jm49eejWJpD-Q",
+      "scope": "GOOGLE",
+      "types": [
+         "meal_takeaway",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "200 Jackson Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7672312,
+            "lng": -122.4528942
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7685645802915,
+               "lng": -122.4516807697085
+            },
+            "southwest": {
+               "lat": 37.7658666197085,
+               "lng": -122.4543787302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "0cd8c7be10d3dbbc7e9ae4fd3ff69c802303d4b5",
+      "name": "North Beach Pizza",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 776,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/104485273680964169800/photos\">North Beach Pizza</a>"
+            ],
+            "photo_reference": "CmRaAAAAMsgmYlKrrr0DXJjrN8s-fdTqMV_O6ZZwiDZeOY6KKChI2tncrMbmTASAkfSpvyllFWApglRx8AsOFCgFy6kMoOjpiw6ejTsGn-m97Vg3RLy_YBZtvqJTuaAuv2EQLEjeEhChAdxFTlxveAcaI6NizEpkGhRc4eR-9i_vJB0DryH3tNFt_PbFpg",
+            "width": 1538
+         }
+      ],
+      "place_id": "ChIJx8TcWlGHhYAR2kONDWjdWp8",
+      "price_level": 2,
+      "rating": 3.5,
+      "reference": "CmRSAAAAQ9CHOFaksqqVr4xaJUFhWKaf5iUNVegvdlHu1k7zDQiAfaAVw2sX3KXPOGHJuedzBdT5pgftwvOTrS9abTZTjzMjEG4A6pq4RZ18Uym61XYRBK4sW1nGjZFZZZYoRZN_EhBnTPsaUj1RiAlDEM-y90sBGhRogy6KiQ5fkv-H7Fv_qkYmvdRDVA",
+      "scope": "GOOGLE",
+      "types": [
+         "meal_delivery",
+         "meal_takeaway",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "800 Stanyan Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8341343,
+            "lng": -122.2628894
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8355039802915,
+               "lng": -122.2616471697085
+            },
+            "southwest": {
+               "lat": 37.8328060197085,
+               "lng": -122.2643451302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "0587d26ea37943012167ce7d742e1a4089550271",
+      "name": "Aunt Mary's Cafe",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 1365,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/108471771581835285000/photos\">Aunt Mary&#39;s Cafe</a>"
+            ],
+            "photo_reference": "CmRaAAAAXea6tWlTOmY8gmwuopLL136VZ_OiLCFSFCz9vGeyaNCtpnlVVN5CGrnNq295BM-XYGzMa0vuFQF2QcopnkjNIfgxzzwDiqMgzfhv5eZQGNBbdkeaErGpDvjin33xo4fGEhDB0AEXPds0QIQM7EqtUMxGGhSmahf7nHyKflo92KuAoYM3_nKbyw",
+            "width": 2048
+         }
+      ],
+      "place_id": "ChIJJWghYeJ9hYARId9jSvP1Hrg",
+      "price_level": 1,
+      "rating": 4.5,
+      "reference": "CmRSAAAAtDdvsaxNLxzauBm6x_i71VD6IyJlu4tHbdSDO9ZTnp7X66vqX-HhHlaTi-uZ1PIG5tO8_ZZM7F8zpiXJp5k-ZbclWtPLeWnmRJgeaEuQCe0yG3aMEJ9JzSQxxoTBSzxuEhCHgKyIVMqlwkjoB6UIJG14GhTq-2eT3104NMQD7BDtnE_j_itg1w",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "4640 Telegraph Avenue, Oakland"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7905481,
+            "lng": -122.4226117
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7919052802915,
+               "lng": -122.4211932697085
+            },
+            "southwest": {
+               "lat": 37.7892073197085,
+               "lng": -122.4238912302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "9750a3ab2080e279eccdc43e035a70716e85868b",
+      "name": "Ruth's Chris Steak House",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 700,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/100948761416510393252/photos\">Ruth&#39;s Chris Steak House</a>"
+            ],
+            "photo_reference": "CmRaAAAAM_aqUmYMSpyLkyubRbG3m9aXSml-PqUUO6uulgQN1hT7mLdWxLZesK6yngqnj1o2BDp7lIUObrxEUFLaRtyQOyAkvBg7r6jywUc-f74stSlrmDp-J2m2wJ9EGDw2shWWEhApwUiKGXtCd-Xx4aM3TzhIGhQPsh1ovhj-A5OHIPSzEqvGhVDSFg",
+            "width": 1280
+         }
+      ],
+      "place_id": "ChIJyQ2vy-qAhYARnNuxU_WWsKk",
+      "price_level": 4,
+      "rating": 4.4,
+      "reference": "CmRSAAAAWydBpf9yL-platSTGc1KiqQwSAtCNIVR7X8q4BklkHHqBf0ZR1WXc-oZ0ltkwf7a6LsaV8K9LwngRZHLVV7DxD_sxZ_8qTzIbrSGWxlE7dwWZCCQFJNuS1OOWRFeCqcXEhBkJ60LoUJykqNp0zCoTyBnGhSdHT6eX5WlS4E6jWK41aBP6vPquA",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1601 Van Ness Avenue, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.783574,
+            "lng": -122.409407
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7848938802915,
+               "lng": -122.4079353197085
+            },
+            "southwest": {
+               "lat": 37.7821959197085,
+               "lng": -122.4106332802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "bbbbed5dd4941e15675c7fbc8999fa69fc2677ab",
+      "name": "farmerbrown",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 1371,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/115030913810250892025/photos\">farmerbrown</a>"
+            ],
+            "photo_reference": "CmRaAAAAFVzjyF0MaNbqt1A8-f-3MFuawSzKbnitrhgGygUcWM91rChj0VvK_Ua9CshseOibz0RphtKt7nT8my_iUY_UcNn2tkugVdMKSdOzmzQt3mTI2-WD_0AYH2lWrfvn5qFrEhDnd0k-YK80sjOXHRGlaxPFGhR-Ib8eIQ58nKolExuMEwhUY-uBng",
+            "width": 2048
+         }
+      ],
+      "place_id": "ChIJv-klmoWAhYAReflECbnTyRE",
+      "price_level": 2,
+      "rating": 4,
+      "reference": "CmRRAAAA-I7ihSdCGgzsCkIjRj1VPFXtNlWQm82mX5YnjsHS2ASdDNEMepv3VcW8VypBN6jv536VYYDEhddXlttAC2E1TnTjDBFYl0gq5qxGqi4SGDk9OQYzTNqWrFMo1xDaIQi8EhDrjLlLbi8_6R_6sIwWrQKHGhSW968TrGCfqerevQc5rdZniDNKAg",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "Hotel Metropolis, 25 Mason Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7961888,
+            "lng": -122.394041
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7975168302915,
+               "lng": -122.3928905197085
+            },
+            "southwest": {
+               "lat": 37.7948188697085,
+               "lng": -122.3955884802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "3eb511e33fd310d59f54f8fb940b93420af852cf",
+      "name": "The Slanted Door",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3744,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/102585765171916749442/photos\">The Slanted Door</a>"
+            ],
+            "photo_reference": "CmRaAAAANvesJuc3U_OFp8_6dGKpEB65L_7cz9QoYlQmAe_6-h79BMq_hDtm0YIxVRAuedROlqvRHClUmnMe6YpDZUdrqOlY6QKhb2xn5N4X2_LW3h9jtr_QUTy2V70L0hgKqxExEhCaokST5SvsqEGJD7Y0yuCrGhQR_SdMBTps2j3R53j5wF-FwYJTQQ",
+            "width": 5616
+         }
+      ],
+      "place_id": "ChIJWTGPjmaAhYARnYsfhjHT8JM",
+      "price_level": 3,
+      "rating": 4.2,
+      "reference": "CmRSAAAAcwJc4J7dDIFcejBx6ctOzM921mTIiwqMeoTDUl41uwrIZCGlszQmh_hAp4rk-73ywSOBYdCV36JBKsjCWEyqbmNp618GplCW_Vw_PQRrOZWuZxOZ3KveXTpvwjXXpzoXEhDdSLrkxLvD25jwrVV5b7G5GhTYZ4R8i-DG9MLvBW1Ej366IPEJaw",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "Ferry Building, 1 Ferry Building #3, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7840994,
+            "lng": -122.4073333
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.78544838029149,
+               "lng": -122.4059843197085
+            },
+            "southwest": {
+               "lat": 37.78275041970849,
+               "lng": -122.4086822802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "38e0822998d722b0d50a4cd2481e1c958e6504bd",
+      "name": "Bazille",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 1365,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/104111246635874032234/photos\">ZAGAT</a>"
+            ],
+            "photo_reference": "CmRaAAAAhh43xSdcW7bRv-1JZHBWyCfsT0wnRxXcfsMbp5LDldhnOWiNkPuYcTGDn4wdsNKzLXPqrHdwhmrdGzxSc2JrhRhE7rckNG6BoJe2aQEGP5gfUbBgrsbLD9H8zYNFuPfeEhBWqfbBXBiNPLbTSQ79R6QsGhQ33W39hzcFVphmJI07ac4eHUjDag",
+            "width": 2048
+         }
+      ],
+      "place_id": "ChIJ6zMe3oWAhYARCjdEkUhwnm8",
+      "price_level": 2,
+      "rating": 4.4,
+      "reference": "CmRRAAAAkf4BYJSGjXtopu8i3jlEwFrrvyT-DFBBTa3uiVnW79uI4csGopAo6kys82dsVQR4XEgU8L1EotNOW6Oeh1_vIIN7D_rR0jO-Ybtfry_2Z291CdAza65Bbkg6kE_OMHXsEhB9mPDCRLlNFpEvz__cRPKKGhS-Ihcnh9CMWkpa4BPHFBwckAuNoA",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "865 Market Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7783424,
+            "lng": -122.3967887
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.77964438029149,
+               "lng": -122.3953799697085
+            },
+            "southwest": {
+               "lat": 37.77694641970849,
+               "lng": -122.3980779302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "69cae4e681fa11206dd05b2d8a5af8200f3e3bdd",
+      "name": "Marlowe",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 2472,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/106633014481988554125/photos\">Artem Kevorkov</a>"
+            ],
+            "photo_reference": "CmRaAAAAlvvpBWoKlWLjoEChSAiA1P0bz7clhlashE6w4qgDXRLXjau2Oy_F52RYa5VGU6lGvBto0QY0XR2fFOb15D5KkwkzUTsn9FXHJAbdXMdCPDRzRq_nSgqZjOSvG1mslyqVEhCafSiLeBH6rl8v_xF3o1sGGhTXRgDr8oa9hlcBsMLHvWrmu5uIFQ",
+            "width": 3897
+         }
+      ],
+      "place_id": "ChIJK08gKtR_j4ARKyo5suJ6o2I",
+      "price_level": 3,
+      "rating": 4.4,
+      "reference": "CmRRAAAAfWobLrjSXaVWXp50SElm6oWeoOTGeaHJCwiKMuWIlkx2P1MA_lOcuEGcHFruOFQF_hl9dd3Irp4b09QofC5pyAo_JSRkZat593DWj2YywQ1H2m3rfBNNcDU07b8ojs-YEhC1xzTKm5MGyXruF4ZWqyqvGhS7uY80k79f3osvPBpq6rgQKo6P6Q",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "500 Brannan Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.793997,
+            "lng": -122.4023388
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.79528533029151,
+               "lng": -122.4009785697085
+            },
+            "southwest": {
+               "lat": 37.79258736970851,
+               "lng": -122.4036765302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "34f0e314787008caed167e52382b4c40057edb33",
+      "name": "Wayfare Tavern",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3036,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/101061060132036727782/photos\">Kevin Dimond</a>"
+            ],
+            "photo_reference": "CmRaAAAAQxTdfnkX1zhR2n3UkcQTY0ku_TOtvyjNNCrWxEKT-QCTRy14x9N2A3lyVgzeOkDhB8xjVvXAV7V1kVqNJX-vnH2RELPmcBPRng_x0xUHnqx5oSf0nkcnYXWAqrrZ9zNVEhBcdKNhJVwjeXd0yWwDalnhGhTKFD7D9kIRQP7YYTWxU2nO91yvPA",
+            "width": 4048
+         }
+      ],
+      "place_id": "ChIJE5T3YoqAhYARtxUohSbFVDc",
+      "price_level": 3,
+      "rating": 4.4,
+      "reference": "CmRRAAAAJnKLfzOD4J6WiS7zfE1sfP8lrgd1pr7robSYjj9UTSwWjDBzfqYOJcGmjbDw3-Kh0QdoIAY_qTamig1GNhU8FNqnRqem5dryKtemPXBw8qVZvgZvxhPWUF_oF9H9aS3tEhAxvrWeUwKHA40JUmFpni77GhSRzUhs6J4fQ2aAwkHE46maDVePBw",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "558 Sacramento Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7861517,
+            "lng": -122.4116792
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.78751793029149,
+               "lng": -122.4101898697085
+            },
+            "southwest": {
+               "lat": 37.78481996970849,
+               "lng": -122.4128878302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "26468ecab2614bdc588579b09176af31673b4747",
+      "name": "Jasper's Corner Tap and Kitchen",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 520,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/111987115681481585727/photos\">Jasper&#39;s Corner Tap and Kitchen</a>"
+            ],
+            "photo_reference": "CmRaAAAAejCOmhkNoMCV3YlbNSzSIODfY6lGj2Ww66rMNvf9BM2jogylxgzgYtAB3Oeu9S6r5GH_2rbLKIE7nSC24jr_iFdYhySpzntVXVjrnTOkDwoewdHd7Ml5bpofpNEH4y-DEhCkeqUjUmdFAytkA3isNaB-GhQ4B5fJ4-FXOu0bx6Ut3LyMgBrcWw",
+            "width": 926
+         }
+      ],
+      "place_id": "ChIJsYeEyY-AhYARFukSYv7t_3Q",
+      "price_level": 2,
+      "rating": 3.7,
+      "reference": "CmRRAAAApUfAMsh74zeFmrZSxWkKOGi1W3ZTPGKhYnubCLM9q_1EIJm-tPd5hwR_8B2KVCMdNEfD_JFQYGeTR8Cb6TZdEgGSnfs1vidHLEjlSBceXHhHHq2ryjFrtG8KGWSj5l4MEhAwQTlU-RKckV3yxnaVnEDQGhTe3I4Vb9WrLAusgonIs8JHqStlyw",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "401 Taylor Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.788343,
+            "lng": -122.409338
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7896242802915,
+               "lng": -122.4079750197085
+            },
+            "southwest": {
+               "lat": 37.7869263197085,
+               "lng": -122.4106729802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "d932103882352170f10b97b80e331055817f73d6",
+      "name": "Farallon",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 4048,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/105967386125327823641/photos\">Markus Hoffmann</a>"
+            ],
+            "photo_reference": "CmRaAAAAN9XrNi5lHE6o-4j8n1cAfKAAd7iXpdzeT2HOIoi87dl6m4MsyOG8ZmdqrfYrO-1e-EaEZaoi7qlxnS3hnAmRK45Dl-jf722LwU4tZKJHF_5b1DTsH4o8nlj77-9STagiEhCGteNK2OmWrynBjPXlY1EoGhTYEfe6zYmepnktsUMbMRGwvHLerw",
+            "width": 3036
+         }
+      ],
+      "place_id": "ChIJJ0yB8o6AhYAR0HIFmCURzGc",
+      "price_level": 4,
+      "rating": 4.3,
+      "reference": "CmRRAAAAMd1gS_0ZO0V9Lbxe3_S4sdckrlElw2MRhow7Lfe5H8CANP1wywEoG93qs6AIBjeSVFbOb6wfTHcDme5BwLGgOB7yPk0GR3UKWgKPchQ2ipQYt_XBQrR_5_9yAlzfyZEEEhC_PTytInroJDQTAwhFvAkEGhTGSk_VJzR1MPHEjenQ1R2wQXm9cg",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "450 Post Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.6655592,
+            "lng": -122.3827064
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.6673309802915,
+               "lng": -122.3817101197085
+            },
+            "southwest": {
+               "lat": 37.6646330197085,
+               "lng": -122.3844080802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "a7759bb75ab1244dcc8755417a47b0218d51cb65",
+      "name": "Pointe Cafe",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 1836,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/117934274821983298826/photos\">Michael Nantell</a>"
+            ],
+            "photo_reference": "CmRaAAAAty_89E4YFgD_L_VhJdKM6wup6-yB0p41o9UjhgAtsgBz2e-j9Wlj1h27pyp3BmZTbYrGvtoHcoH_uMwudf8itfNeq5SP6wTFR6YbcjX9Prx6wgTD7OPoegeQPUVRUkwREhBD5kqhkhu6BP9c3tjK1E_7GhRME9BE2wnf4ccDe7oUceykdIsmcA",
+            "width": 3264
+         }
+      ],
+      "place_id": "ChIJQzqKtmd4j4ARbpsLYEYGXAs",
+      "rating": 4.2,
+      "reference": "CmRRAAAAP5C5G0lw0nrW3rV90JjkhDch0JjooGMqtLrtI_kcAS1sc12Hwm8LNne54cabm7D3q9xTY65JFlXNo9SGetgL_RdYjqxOvd_b0LPBdG-q-w9EMX3qiFTcC23s1l2iX0MyEhDFK3ZjhcB0NctUwbOD_Kk7GhREE4c2npaGCj8t1ewHsD9jwf-XXA",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "cafe",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "400 Oyster Point Boulevard # 131, South San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8035474,
+            "lng": -122.4019217
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8048873802915,
+               "lng": -122.4006432697085
+            },
+            "southwest": {
+               "lat": 37.8021894197085,
+               "lng": -122.4033412302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "2d07e3d7eaf4e094cbcd1f7b47234e0339540834",
+      "name": "Fog City",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/107602328530544278868/photos\">Raymond Silvergrey</a>"
+            ],
+            "photo_reference": "CmRaAAAAFk7zWeyffVo_bkJMOvcvGVR-3AaFM8VSVwS0Cy3OYhDkC897FmgkQshCAkjj2Tri3fUHjYyHq0Ffnl1Z3TdJE8_5lPr-REZQBClaj8Jw41HqTsCnOOmBOV50GPjqWDZCEhBtFZ8zOfeQYxxaweTjakSlGhS5QR_4f8O5zgf_2RYB_hLbZepClg",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJYSMTLPaAhYARFZCDlJ6yMr0",
+      "price_level": 3,
+      "rating": 3.8,
+      "reference": "CmRSAAAAL1UaqhMyYNthi7hl67UPw9FPFeY5-1OpEF9XvKs3Bj3tX3oLXhPp9SJAaJsBObJrRAVge4GG0MCQTNka7ui73TcRBigrSrnglG97EuwK7VRUYiZ5avSik84U8DoTqgOiEhC5uZsMainw1TlpcQ4S3GZMGhQIHaoIm5go8aitm-i6TjCopFpvTQ",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1300 Battery Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7635294,
+            "lng": -122.4661409
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.76487453029149,
+               "lng": -122.4648693197085
+            },
+            "southwest": {
+               "lat": 37.76217656970849,
+               "lng": -122.4675672802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "b80063cdc4ca3adfdaaf0f8d69bc374e751f68ef",
+      "name": "Social Kitchen & Brewery",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 773,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/106509717319120325287/photos\">Social Kitchen &amp; Brewery</a>"
+            ],
+            "photo_reference": "CmRaAAAACcNXyPca6Y3OrV-XVnhhHC1vVFtae6fPsUaDNRfgTeTbPXKj5h5SgYOm5J3_6lqQdCDGaeeEelfMAVQxn3BYlIuVw-7oYH-qx111pOokBBNKulhGx_rhljlRzKsTao2OEhA6Ia1OwnbUD1mIVPnf4U3yGhQMxT8Agfx7c7l8FkfG-m30iTZbWw",
+            "width": 1200
+         }
+      ],
+      "place_id": "ChIJ06TUNVyHhYARe_-UgxakR6E",
+      "price_level": 2,
+      "rating": 4.1,
+      "reference": "CmRSAAAALKjn1CEf31Z7zPQTQQ1LyUapTlbMJZEnBKoyMyYW4kVkgf_B7eVotcnbRQcKA5dSUu_2GPPbwlvPQeC7Xg9fXwTVrytPY0o7I8jFQnNac7fI1HGDQted5bLAjZxA5rjfEhBl4TwnwsnX6MQUNSrN8Bf3GhSi7YAG3dOBIZh9JAZG7M52dpbD2Q",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1326 9th Avenue, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8090972,
+            "lng": -122.4146695
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.81044618029149,
+               "lng": -122.4133205197085
+            },
+            "southwest": {
+               "lat": 37.80774821970849,
+               "lng": -122.4160184802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "4d3df0f83dec45a31e094d64b797875c64174663",
+      "name": "Franciscan Crab Restaurant",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 500,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/117739947955060984961/photos\">Franciscan Crab Restaurant</a>"
+            ],
+            "photo_reference": "CmRaAAAAdiQbFyOjireLGj07x1JnIurXtxfhmEiMUkwzkKyKSR4EhLFYnB8xoJJQNcBckO7j_aeLQKQk8w7xV0gYVSfMEZ0ruxhNUscAhe6wtcRi_sir4EI3R903Jk7G2zRcDftyEhD_aogh0KsVewPWsB7__HG2GhRukb1oIJC0jroloxt-poPRF7rbuQ",
+            "width": 750
+         }
+      ],
+      "place_id": "ChIJERGFHOOAhYARFYtaHpvXbyc",
+      "price_level": 2,
+      "rating": 4.1,
+      "reference": "CmRRAAAAq7tuUEfX5axYu4dS4p6srUXXLKNHn7OEeDVUkrJpwJlRWOtT84Cblv-TutVodqyvKBfsnXPysbrCdmgZNKfgE6YRcSGX2CX3haSDJuixji3G-dAboWd9tKRw7iMCQT4nEhDnRAvY9Wx1meQiF8l_Ch0GGhSi7hFkI7My0p1gNRAld9MKtUV3eA",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "Pier 43 1/2, Fisherman's Wharf, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7749009,
+            "lng": -122.4375083
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7762350302915,
+               "lng": -122.4362792697085
+            },
+            "southwest": {
+               "lat": 37.7735370697085,
+               "lng": -122.4389772302915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "eac84ba2f31990fe26d3b0acd8c1e99962b60bdf",
+      "name": "Nopa",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/115832882436993992452/photos\">Sheraz Choudhary</a>"
+            ],
+            "photo_reference": "CmRaAAAAhoxRZicSJBNM8_IPra9_G646vflJ8_TSXkQjl05I0GSSHIHJWWefk8S8hJXvIGb4oQowo3Jg7ATCCzWImjIlqy98WIAgmwFAF0g3V1aVyIAAxYNGjBQUZ9991eG6VvfiEhDkaSQClGGg5t0beM-KcUoZGhTaEegOuf-f-nIuZhSevDOF6X1BLQ",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJ_dQjyK-AhYARBc9DFlxcclg",
+      "price_level": 3,
+      "rating": 4.5,
+      "reference": "CmRRAAAAArKhfPIdzHqgiuJ0_yPqXtefAgSiwVOucQH3DrScXxP7U9FxQxEKNRofEeFRwOJFjD8ZW6cjehcMIuLV_tS3lh8hXxKNdq3E4P6j7dCcFNSx5iyVpwlmncL6ls_PUdaxEhDOYKNT4JV1SQNk6cNWEMRRGhT-DqwCJR47qK16I_JHI19LU7x-Tw",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "560 Divisadero Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8086745,
+            "lng": -122.2680647
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8100234802915,
+               "lng": -122.2667157197085
+            },
+            "southwest": {
+               "lat": 37.80732551970851,
+               "lng": -122.2694136802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "18dede9a6b61aebe24b5408fadff6f75586a0cbf",
+      "name": "SUBWAY®Restaurants",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 5248,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/102579868697387420050/photos\">Jonathan Nakhla</a>"
+            ],
+            "photo_reference": "CmRaAAAAqwUWyrMOaIWwj0gw57Ohb_TLbvRfiNi1U6TF7vnVa-IpuwLo2qys8cdl-nBruFDBKvtZhuVyxkymDUX2W6Ruf4XpuhnzcbaqlsTXl4eqnnmrKKmG70K2DDVqYxaICPFjEhAUub6izh33ioV5KcNsveruGhQgDWb7V2E1gKqVlC5wPNv324tCSA",
+            "width": 3936
+         }
+      ],
+      "place_id": "ChIJm2_chrKAj4AR1FyCkgPuwLk",
+      "price_level": 1,
+      "rating": 3.1,
+      "reference": "CmRSAAAAFQgRvZQYOd2ZgLDvtUzmbPt4EJepf2KsdjQpCfFeNFPVPq8q3Gz8oUN1F99KiGgy-JzPgtMyyYZ3OWuTct7Bnnsv3O_dNeDC4CAU23vLK4T9VnDPd9kfUPb4DTFKj6QHEhAkkJP6yF03PHFqrGBJoWbDGhQWeRgKZLjQjUlkZ3r4oFjS7-0-ww",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "1970 Broadway, Lower Level, BART Station, Oakland"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.8590135,
+            "lng": -122.4781557
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.8603159802915,
+               "lng": -122.4768930197085
+            },
+            "southwest": {
+               "lat": 37.8576180197085,
+               "lng": -122.4795909802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "4e1a452ba976dfad3a25c55560c575ad14fbcc7e",
+      "name": "The Spinnaker",
+      "opening_hours": {
+         "open_now": true,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3006,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/101463241818261006183/photos\">Marianne Anderson</a>"
+            ],
+            "photo_reference": "CmRaAAAAP0UKOxBQz8L13wOUqwoiCykgM1AD1of6tWYqM-d5D3efDx6-FNHpG00cK4tkxOV1WI4LNtFipx3dMBdVWZUPDW2G2IAPA3r8UT0gGDHBaXbk2yWhhxhJfJZMKg6NfvOMEhDqnImnP92EfW-9iDG6asHRGhSRvG5VrXDvnNEdYdiMznWzAmI80w",
+            "width": 5344
+         }
+      ],
+      "place_id": "ChIJi9kLxVqEhYARy-i8llgk7KA",
+      "price_level": 2,
+      "rating": 4.2,
+      "reference": "CmRSAAAAY3SSvgAWVNDeJ9JVeTQR_CuqoezxFqe9elH-QrvPxaXVRvRafXdhA7qAZ1ouA4bpWqBpTuCmWM7VaLlqRjH03i4oU3lcH8Bjhi4sCi5vlA1Xa5cogV1JkKVOotUZQ_PoEhBl1ZJ_AySz7ZtzcLPg5c8eGhQGtBfvIi57IUUAyMrn9LZUNIKlGA",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "100 Spinnaker Drive, Sausalito"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7915361,
+            "lng": -122.4040583
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.79287508029149,
+               "lng": -122.4027923197085
+            },
+            "southwest": {
+               "lat": 37.7901771197085,
+               "lng": -122.4054902802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "03d3d0b8ba1a70c5713207f20a940e1bbb09730a",
+      "name": "Ramen Underground",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3096,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/107721404123505875377/photos\">Albert L.</a>"
+            ],
+            "photo_reference": "CmRaAAAAlDtM3VPOuhXxOTXku8ks5r2XHHWWmYV6vpVV_z8qBgRtk0zhntbdqUy0LmO5lRJmLI489tOA5H2TwZsK00owrpSH6BWr8W0sjBAm_XpEsvDImkqyLjUEoeOXQg8NrnsrEhDw4mlO9NEoPFYkqj843v2GGhQ5Kz8DepcIVLGOJWvuCEWOIfcloQ",
+            "width": 4128
+         }
+      ],
+      "place_id": "ChIJyyQu04uAhYARXVI2yERHvEk",
+      "price_level": 2,
+      "rating": 4,
+      "reference": "CmRRAAAAguvembVUZyLpkJ2_2JjLZ8QShwHLGq3v7I95a4t4AqKeiupE3iGENTjku-ehAlhmC2h6YybT6mRQeZSAKKZcqep13Gi8GP7fPk-w2jQKqPl1rzzZYj5LU3E5rg2cSm2rEhDzT_JkP_0gbvXNSZFHo0sVGhSXmLsgTgdR3E-sStVTnw-vu23zbA",
+      "scope": "GOOGLE",
+      "types": [
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "356 Kearny Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7833359,
+            "lng": -122.4069933
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.78465258029149,
+               "lng": -122.4056042197085
+            },
+            "southwest": {
+               "lat": 37.78195461970849,
+               "lng": -122.4083021802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "89973595f951d4c77ea41659a2967f56cfe53bab",
+      "name": "The Cavalier",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/117906320020891858761/photos\">Marcus Garcia</a>"
+            ],
+            "photo_reference": "CmRaAAAAaz-gmD0i0SX6tzMSpsQ32LKW1RZUiyNcKAp6ckD5pJAPZHLFQ1azPevfQmC3xQo2WoQjKVZZulCLJzf0-HYe84JnEth-7LvKJSOzfGRvaBcxn7BaSUWsGmj8Ih_t05X7EhDQmXfclj7A5bkRhRPhn6wQGhQ9pcI-_kG5P7LgwLAvxnVUkeOEjA",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJUUjhfoaAhYARRuSNp1R18vs",
+      "price_level": 3,
+      "rating": 4.3,
+      "reference": "CmRSAAAASDbsnNuOhjsCmP_WuiBw35Q4v3TKz-EvfcubYm-j4r3ov9f5JWwy3cmvSwHy-tfkwZsPASe-92NvykjhoS6bQPJzsoqPWm9MOWBeJueEmm2wNtlA8VmbMNCddMYfmPRBEhAlxRHZ22dEwnCpM5fcmG1pGhR8QHIQ9OSVIudnVCvAVe282pQfWQ",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "360 Jessie Street, San Francisco"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 37.7960235,
+            "lng": -122.3935921
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 37.7973724802915,
+               "lng": -122.3922431197085
+            },
+            "southwest": {
+               "lat": 37.79467451970851,
+               "lng": -122.3949410802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "f8fa55a8dd985278fcc18b575b8a10f889d08f65",
+      "name": "Hog Island Oyster Co.",
+      "opening_hours": {
+         "open_now": false,
+         "weekday_text": []
+      },
+      "photos": [
+         {
+            "height": 3840,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/111592707657525468627/photos\">Hog Island Oyster Co.</a>"
+            ],
+            "photo_reference": "CmRaAAAARbJkYfHMWjv7HMR2ix0tMYGonimVMSCY7RHgugjYaRcWn6LmyxvRXeVpp9NM7zMn1ENSg6_lIRPZQyjpyyxKuu4tiKpGnvzsOaPlzxNBdcLEME97kGDOQkgo82_l-yCEEhAm6jsnp9VjenRF5JdRgI6AGhTSu2tQVwgHnyxNymaWuuB0GVVabQ",
+            "width": 5760
+         }
+      ],
+      "place_id": "ChIJWTGPjmaAhYARgXpiJ-aACYM",
+      "price_level": 2,
+      "rating": 4.5,
+      "reference": "CmRSAAAAQaGGiC03A-9fc1XFJ0Q-yY5uv5CYHgiaPic9j3tPbfqrfa4NZDsd732QM6rBvWEm4DKOvLeK69GRTsPvORf7YfBtoHmeqbgOeRMm7jbnk5GfgR_DNuZ-ypsKsbsQHsykEhAom980Ou0bohlj4iHnel6rGhTLTWZSi2YsCmhk2y4EhYfX4umn0A",
+      "scope": "GOOGLE",
+      "types": [
+         "bar",
+         "restaurant",
+         "food",
+         "point_of_interest",
+         "establishment"
+      ],
+      "vicinity": "One Ferry Building, #11, San Francisco"
+   }
+]
