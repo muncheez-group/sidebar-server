@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/api/:id');
+mongoose.connect('mongodb://localhost/places');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -22,13 +22,5 @@ const placesSchema = mongoose.Schema({
   });
 
 const Places = mongoose.model('Places', placesSchema);
-
-let findAllPlaces = () => {
-    db.find({})
-      .exec((err, places) => {
-          //
-      });
-};
- 
 
 module.exports = Places;

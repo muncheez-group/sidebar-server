@@ -1,5 +1,5 @@
 {
-  "name": "iteminfo",
+  "name": "sidebar",
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
@@ -26,6 +27,7 @@
     "morgan": "^1.9.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-materialize": "^2.2.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
     "webpack": "^3.11.0"
@@ -35,5 +37,13 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apateez/sidebar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apateez/sidebar/issues"
+  },
+  "homepage": "https://github.com/apateez/sidebar#readme"
 }
