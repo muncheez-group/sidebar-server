@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from './Menu.jsx';
+import Booking from './Booking.jsx';
 import Hours from './Hours.jsx';
 import Contact from './Contact.jsx';
 import GMap from './GMap.jsx';
@@ -13,7 +14,6 @@ export default class Sidebar extends React.Component {
     this.state = {
       place: {},
       toggleHours: false
-
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -31,6 +31,7 @@ export default class Sidebar extends React.Component {
       this.setState({
         place: res.data
       })
+      console.log(this.state.place)
     })
     .catch((err) => console.log(err));
   };
@@ -45,6 +46,8 @@ export default class Sidebar extends React.Component {
     return (
       <div className="sidebar">
         <Menu  menuUrl={this.state.place.menu_url}/>
+        <div className="greyBar"></div>
+        <Booking />
         <div className="greyBar"></div>
         <div className="inSidebar">
           <Hours hours={this.state.place.hours}/>
