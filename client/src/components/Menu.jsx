@@ -1,10 +1,10 @@
 import React from 'react';
-import {Button, Icon} from 'react-materialize';
+import {Icon} from 'react-materialize';
 
 const Menu = (props) => (
-  <div>
-    <Button waves='light' node='a' href='http://www.google.com'> VIEW MENU <Icon right small>local_dining</Icon></Button>
-</div>
+  <a href="http://www.google.com">
+    <div className="menuBtn">  VIEW MENU  <Icon className="foodIcon" right>local_dining</Icon></div>
+  </a>
 )
 
 export default Menu;
