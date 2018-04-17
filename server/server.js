@@ -10,18 +10,17 @@ const Places = require('../database/index.js')
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
-app.get('/api/places/:id', function(req, res) {
-  // the user was found and is available in req.user
-  res.send('What is up ' + req.name + '!');
+app.get('/places/:id', function(req, res) {
+  let q = Places.findOne({id: req.params.id});
+
+  q.exec((err, place) => {
+    if (err) { console.log(err) }
+    console.log('PLACE: ', place)
+    res.send(place);
+  });
 });
-
-
-
-
-
-
 
 app.listen(port, () => {
   console.log(`server running at: http://localhost:${port}`);
