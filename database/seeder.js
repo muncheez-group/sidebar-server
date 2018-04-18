@@ -20,7 +20,6 @@ getFullData = (places) => {
     }
     return rp(options)
       .then((data) => {
-        console.log(data)
         let temp = {
           id: data.result.place_id,
           name: data.result.name,

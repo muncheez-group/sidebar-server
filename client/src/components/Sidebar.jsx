@@ -31,7 +31,7 @@ export default class Sidebar extends React.Component {
       this.setState({
         place: res.data
       })
-      console.log(this.state.place)
+      console.log(this.state.place.hours)
     })
     .catch((err) => console.log(err));
   };
