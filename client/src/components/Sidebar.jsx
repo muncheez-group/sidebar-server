@@ -45,7 +45,7 @@ export default class Sidebar extends React.Component {
     return (
       <div className="sidebar">
         <Menu  menuUrl={this.state.place.menu_url}/>
-        <div className="grey"></div>
+        <div className="greyBar"></div>
         <div className="inSidebar">
           <Hours hours={this.state.place.hours}/>
           <Contact
