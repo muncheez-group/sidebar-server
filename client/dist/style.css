@@ -39,12 +39,12 @@ body {
   line-height: 50px;
   font-weight: 400;
   letter-spacing: .086em;
-  color: #101820 !important;
+  color: #101820;
 }
 
 .menuBtn:hover {
   background-color: #101820;
-  color: white !important;
+  color: white;
 }
 
 .foodIcon {
