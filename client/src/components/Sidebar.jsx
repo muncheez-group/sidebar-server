@@ -13,7 +13,6 @@ export default class Sidebar extends React.Component {
 
     this.state = {
       place: {},
-      toggleHours: false
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -31,7 +30,6 @@ export default class Sidebar extends React.Component {
       this.setState({
         place: res.data
       })
-      console.log(this.state.place.hours)
     })
     .catch((err) => console.log(err));
   };
@@ -50,13 +48,13 @@ export default class Sidebar extends React.Component {
         <Booking />
         <div className="greyBar"></div>
         <div className="inSidebar">
-          <Hours hours={this.state.place.hours}/>
+          {/* <Hours place={this.state.place.hours}/> */}
           <Contact
             address={this.state.place.address} 
             phone={this.state.place.phone}
             website={this.state.place.url}
             location={this.state.place.location}
-            />
+          />
           <GMap 
             location={this.state.place.location}
           />
@@ -67,5 +65,3 @@ export default class Sidebar extends React.Component {
 }
 
 window.Sidebar = Sidebar;
-
-

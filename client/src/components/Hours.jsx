@@ -1,42 +1,40 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {Icon} from 'react-materialize';
-import moment from 'moment';
+// import React from 'react';
+// import {Icon, Collapsible, CollapsibleItem} from 'react-materialize';
+// import moment from 'moment';
 
+// export default class Hours extends React.Component {
+//   constructor(props) {
+//     super(props);
 
-const Hours = (props) => {
-  $(document).ready(function(){
-    $('.collapsible').collapsible();
-  });
-  console.log(props.hours)
+//     this.state = {
+//       toggleHours: false,
+//       sortedHours: []
+//     };
+//   };
 
- 
-  // find current day
-  let currDay = moment().weekday(); // Mon = 1, Tues = 2, etc.
-  let currHours = props.hours.slice(currDay-1).concat(props.hours.slice(0, currDay-1));
-  console.log(currHours)
+//   componentDidMount() {
+//     this.sortHours();
+//   }
 
-  // check if now closed
+//   sortHours() {
+//     // find current day
+//     if (props.hours) {
+//       let currDay = moment().weekday(); // Mon = 1, Tues = 2, etc.
+//       let currHours = props.hours.slice(currDay-1).concat(props.hours.slice(0, currDay-1));
+//       console.log(currHours)
+//     }
+//   }
 
   
-  return ( 
-    <div className="hours">
-      <ul className="collapsible">
-        <li>
-          <div className="collapsible-header">{currHours[0]}<Icon></Icon></div>
-          <div className="collapsible-body">
-            {currHours.slice(1).map(day => {
-              <span>{day}</span>
-            })}
-          </div>
-        </li>
-      </ul>
-    </div>
-  )
-}
 
-// Hours.propTypes = {
-//   hours: React.PropTypes.array.isRequired
-// };
+//   render() {
+//     console.log('RENDER', this.props.hours)
 
-export default Hours;
+//     return (
+//       <div className="hours">
+//        Hours go here
+//       </div>
+//     );
+//   }
+// }
+

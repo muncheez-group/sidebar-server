@@ -20,6 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 40%;
+  max-width: 355px;
   height: 415px;
   text-align: 'center';
   background-color: #FFFFFF;
@@ -58,4 +59,28 @@ body {
 .greyBar {
   height: 25px;
   background-color: #F1F1F3;
+}
+
+.contact {
+  padding: 10px;
+  font-size: 13px;
+}
+
+
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 5px;
+
+}
+
+.contactText {
+  vertical-align: middle;
+  margin: 0px 5px;
+}
+
+.contactIcon {
+  line-height: 1.5 !important;
+  margin: 0 5px !important;
 }
