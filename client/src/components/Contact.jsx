@@ -1,21 +1,55 @@
 import React from 'react';
-import {Icon} from 'react-materialize';
+import {Icon, Modal} from 'react-materialize';
 
-const Contact = ({address, phone, website, location}) => (
-  <div className="contact">
-    <div className="address col">
-      <Icon className="contactIcon icons">location_on</Icon><span className="contactText">{address}</span>
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+  };
+
+  render() {
+
+    let tel = `tel:${this.props.phone}`;
+    let store = this.props.name.split(' ').join('+');
+    let navLink = `https://www.google.com/maps/dir/?api=1&destination=${store}&destination_place_id=${this.props.id}`;
+    let modalLink = `https://www.google.com/maps/embed/v1/place?key=AIzaSyDfVc7Wl0xQOdHnSm30Yk2lZtcBTPEZtjM&q=${this.props.id}`;
+    return (
+      <div className="contact">
+        <Modal
+          trigger={<div className="address row">
+                    <Icon className="contactIcon icons">location_on</Icon>
+                    <span className="contactText">{this.props.address}</span>
+                  </div>}
+        >
+          <iframe
+            width="450"
+            height="250"
+            frameBorder="0" 
+            style={{border: 0}}
+            src={modalLink}
+          >
+          </iframe>
+        </Modal>
+        <div className="phone row">
+          <a href={tel} target="blank">
+          <Icon className="contactIcon icons">phone</Icon>
+          <span className="contactText">{this.props.phone}</span>
+          </a>
+        </div>
+        <div className="website row">
+          <a href={this.props.website} target="blank">
+          <Icon className="contactIcon icons">web</Icon>
+          <span className="contactText">{this.props.website}</span>
+          </a>
+        </div>
+        <div className="directions row">
+          <a href={navLink} target="blank">
+          <Icon className="contactIcon icons">directions</Icon>
+          <span className="contactText">Get Directions</span>
+          </a>
+        </div>
     </div>
-    <div className="phone col">
-      <Icon className="contactIcon icons">phone</Icon><span className="contactText">{phone}</span>
-    </div>
-    <div className="website col">
-      <Icon className="contactIcon icons">web</Icon><span className="contactText">{website}</span>
-    </div>
-    <div className="directions col">
-      <Icon className="contactIcon icons">directions</Icon><span className="contactText">Get Directions</span>
-    </div>
-</div>
-)
+    )
+  }
+}
 
 export default Contact;
