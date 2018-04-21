@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Icon} from 'react-materialize';
 import moment from 'moment';
+import Collapsible from 'react-collapsible';
 
 
 export default class Sidebar extends React.Component {
@@ -9,35 +10,29 @@ export default class Sidebar extends React.Component {
     super(props);
 
     this.state = {
-      currHours: [],
-      toggleHours: false
+      newHours: []
     };
 
  
   };
   sortHours() {
     let currDay = moment().weekday(); // Mon = 1, Tues = 2, etc.
-    let currHours = props.hours.slice(currDay-1).concat(props.hours.slice(0, currDay-1));
-    console.log(currHours)
+    let currHours = this.props.hours.slice(currDay-1).concat(this.props.hours.slice(0, currDay-1));
+    this.setState({
+      newHours: currHours
+    })
   }
 
   
 
   render() {
-
-    return (
-      <div className="hours">
-        <ul className="collapsible">
-          <li>
-            <div className="collapsible-header">{currHours[0]}<Icon></Icon></div>
-            <div className="collapsible-body">
-              {currHours.slice(1).map(day => {
-                <span>{day}</span>
-              })}
-            </div>
-          </li>
-        </ul>
-      </div>
+    const {newHours} = this.state;
+    return ( 
+      <Collapsible trigger={newHours[0]}>
+        {newHours.slice(1).map(day => 
+        <p>{day}</p>
+        )}
+      </Collapsible>
     );
   }
 }
