@@ -20,7 +20,6 @@ getFullData = (places) => {
     }
     return rp(options)
       .then((data) => {
-        console.log(data)
         let temp = {
           id: data.result.place_id,
           name: data.result.name,
@@ -29,7 +28,11 @@ getFullData = (places) => {
           location: data.result.url,
           url: data.result.website,
           phone: data.result.international_phone_number,
-          hours: data.result.opening_hours.weekday_text
+          hours: data.result.opening_hours.weekday_text,
+          coords: {
+            lat: data.result.geometry.location.lat,
+            lng: data.result.geometry.location.lng
+          }
         };
 
         let instance = new Places(temp);
