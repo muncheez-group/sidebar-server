@@ -12,7 +12,7 @@ html {
 .sidebar {
   /* top: 505px; */
   width: 30%;
-  position: fixed;
+  /* position: fixed; */
   left: 655.266px;
   top: 120px;
   z-index: 1;
@@ -71,7 +71,7 @@ html {
   line-height: 20px;
   /* display: inline-block; */
   color: #101820;
-  margin: 0 20px;
+  margin: 8px 0 0 10px;
   padding: 0 6px;
   text-align: left;
   cursor: pointer;
@@ -82,9 +82,7 @@ html {
   color: #92002c;
 }
 
-.phone .contactText, .website .contactText, .directions .contactText {
-  margin-top: 12px;
-}
+
 
 .contactIcon {
   float: left;
@@ -99,10 +97,10 @@ html {
   display: inline-flex;
   align-items: center;
 }
-.map {
+/* .map {
   height: 440px;
   width: 1140px;
-}
+} */
 .modal-overlay {
   background: #101820 !important;
   opacity: 0.9 !important;
@@ -112,10 +110,10 @@ html {
   display: flex;
 }
 .mapModal {
-  flex: 1;
+  /* flex: 1; */
   position: absolute;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   padding: 0px;
   border-width: 0px;
   margin: 0px;
