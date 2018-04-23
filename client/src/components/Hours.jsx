@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Icon} from 'react-materialize';
 import moment from 'moment';
-import Collapsible from 'react-collapsible';
+import {DropdownButton, DropdownButtonProps, MenuItem, Men} from 'react-bootstrap';
+
 
 
 export default class Sidebar extends React.Component {
@@ -28,11 +29,11 @@ export default class Sidebar extends React.Component {
   render() {
     const {newHours} = this.state;
     return ( 
-      <Collapsible trigger={newHours[0]}>
-        {newHours.slice(1).map(day => 
-        <p>{day}</p>
-        )}
-      </Collapsible>
+      <DropdownButton title="Default button" id="hoursdrop">
+        <MenuItem eventKey="1">Action</MenuItem>
+        <MenuItem eventKey="2">Another action</MenuItem>
+        <MenuItem eventKey="3">Something else here</MenuItem>
+    </DropdownButton>
     );
   }
 }

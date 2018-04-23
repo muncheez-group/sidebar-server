@@ -13,7 +13,7 @@ export default class Sidebar extends React.Component {
 
     this.state = {
       place: {},
-      toggleHours: false
+      isLoaded: false
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -29,9 +29,10 @@ export default class Sidebar extends React.Component {
     axios.get(`/places/${id}`)
     .then((res) => {
       this.setState({
-        place: res.data
+        place: res.data,
+        isLoaded: true
       })
-      console.log(this.state.place.hours)
+      // console.log(this.state.place)
     })
     .catch((err) => console.log(err));
   };
@@ -42,30 +43,35 @@ export default class Sidebar extends React.Component {
   }
 
   render() {
-
-    return (
-      <div className="sidebar">
-        <Menu  menuUrl={this.state.place.menu_url}/>
-        <div className="greyBar"></div>
-        <Booking />
-        <div className="greyBar"></div>
-        <div className="inSidebar">
-          <Hours hours={this.state.place.hours}/>
-          <Contact
-            address={this.state.place.address} 
-            phone={this.state.place.phone}
-            website={this.state.place.url}
-            location={this.state.place.location}
+    const { hours, address, phone, website, location, id, name, url, menu_url } = this.state.place;
+    if (!this.state.isLoaded) {
+      return <div>Loading...</div>
+    }
+    if (this.state.isLoaded) {
+      return (
+        <div className="sidebar">
+          <Menu  menuUrl={menu_url}/>
+          <div className="greyBar"></div>
+          <Booking />
+          <div className="greyBar"></div>
+          <div className="inSidebar">
+            <Hours hours={hours}/>
+            <Contact
+              address={address} 
+              phone={phone}
+              website={url}
+              location={location}
+              id={id}
+              name={name}
             />
-          <GMap 
-            location={this.state.place.location}
-          />
+            <GMap 
+              location={location}
+            />
+          </div>
         </div>
-      </div>
-    );
+      );
+    }
   }
 }
 
 window.Sidebar = Sidebar;
-
-
