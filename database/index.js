@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/places');
+mongoose.connect('mongodb://localhost/apateez-sidebar');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -18,7 +18,11 @@ const placesSchema = mongoose.Schema({
     location: String,
     url: String,
     phone: String,
-    hours: []
+    hours: [],
+    coords: {
+        lat: String,
+        lng: String
+    }
   });
 
 const Places = mongoose.model('Places', placesSchema);
