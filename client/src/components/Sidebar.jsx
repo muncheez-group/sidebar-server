@@ -32,7 +32,7 @@ export default class Sidebar extends React.Component {
         place: res.data,
         isLoaded: true
       })
-      console.log(this.state.place)
+      // console.log(this.state.place)
     })
     .catch((err) => console.log(err));
   };
@@ -55,7 +55,7 @@ export default class Sidebar extends React.Component {
           <Booking />
           <div className="greyBar"></div>
           <div className="inSidebar">
-            {/* <Hours hours={hours}/> */}
+            <Hours hours={hours}/>
             <Contact
               address={address} 
               phone={phone}
@@ -66,6 +66,7 @@ export default class Sidebar extends React.Component {
             />
             <GMap 
               location={location}
+              id={id}
             />
           </div>
         </div>
