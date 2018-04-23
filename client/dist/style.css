@@ -12,8 +12,8 @@ html {
 .sidebar {
   /* top: 505px; */
   width: 30%;
-  /* position: fixed; */
-  left: 655.266px;
+  position: absolute;
+  left: 700px;
   top: 120px;
   z-index: 1;
   display: flex;

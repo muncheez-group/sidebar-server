@@ -5,7 +5,7 @@ const GMap = (props) => {
   
   return (
     
-    <div classname="staticMap">
+    <div className="staticMap">
       <iframe
         frameBorder="0" 
         style={{border: 0}}
