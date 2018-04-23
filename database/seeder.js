@@ -6,7 +6,7 @@ const Places = require('./index.js');
 const Promise = require('bluebird');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/places');
+mongoose.connect('mongodb://localhost/apateez-sidebar');
 
 
 getFullData = (places) => {
