@@ -66,6 +66,7 @@ export default class Sidebar extends React.Component {
             />
             <GMap 
               location={location}
+              id={id}
             />
           </div>
         </div>

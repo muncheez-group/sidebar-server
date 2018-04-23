@@ -22,7 +22,7 @@ html {
   background-color: #FFFFFF;
   /* padding: 24px 32px; */
   letter-spacing: .013em;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .btns {
@@ -127,4 +127,7 @@ html {
 }
 .modal-footer {
   display: none;
+}
+.staticMap {
+  margin-left: 10px;
 }

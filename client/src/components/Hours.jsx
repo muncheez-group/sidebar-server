@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Icon} from 'react-materialize';
 import moment from 'moment';
-import {DropdownButton, DropdownButtonProps, MenuItem, Men} from 'react-bootstrap';
+import Collapsible from 'react-collapsible';
 
 
 
@@ -13,27 +13,28 @@ export default class Sidebar extends React.Component {
     this.state = {
       newHours: []
     };
-
+    // this.sortHours = this.sortHours.bind(this)
  
   };
-  sortHours() {
-    let currDay = moment().weekday(); // Mon = 1, Tues = 2, etc.
-    let currHours = this.props.hours.slice(currDay-1).concat(this.props.hours.slice(0, currDay-1));
-    this.setState({
-      newHours: currHours
-    })
-  }
 
-  
+  // componentDidMount() {
+  //   this.sortHours();
+  // };
+
+  // sortHours() {
+  //   let currDay = moment().weekday(); // Mon = 1, Tues = 2, etc.
+  //   let currHours = this.props.hours.slice(currDay-1).concat(this.props.hours.slice(0, currDay-1));
+  //   this.setState({
+  //     newHours: currHours
+  //   })
+  // }
 
   render() {
-    const {newHours} = this.state;
-    return ( 
-      <DropdownButton title="Default button" id="hoursdrop">
-        <MenuItem eventKey="1">Action</MenuItem>
-        <MenuItem eventKey="2">Another action</MenuItem>
-        <MenuItem eventKey="3">Something else here</MenuItem>
-    </DropdownButton>
-    );
+   return ( null
+    // <Collapsible trigger="Start here">
+    //   <p>This is the collapsible content. It can be any element or React component you like.</p>
+    //   <p>It can even be another Collapsible component. Check out the next section!</p>
+    // </Collapsible>
+   )
   }
 }
