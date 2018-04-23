@@ -20,13 +20,15 @@ export default class Sidebar extends React.Component {
     this.getPlace = this.getPlace.bind(this);
   };
   componentDidMount() {
-    this.getPlace('ChIJw3k8iZ5-hYARJSkLTdSXbls');
+    this.getPlace();
+    // 'ChIJw3k8iZ5-hYARJSkLTdSXbls'
   };
 
-  getPlace(id) {
+  getPlace() {
     let context = this;
- 
-    axios.get(`/places/${id}`)
+    console.log(window.location.href)
+    let id = window.location.href.split('/')[4];
+    axios.get(`/api/restaurants/${id}`)
     .then((res) => {
       this.setState({
         place: res.data,
