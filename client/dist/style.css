@@ -18,7 +18,8 @@ body {
   right: 50px;
   width: 30%;
   transform: translate3d(0,0,0);
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
   height: 500px;
   position: sticky;
   position: -webkit-sticky;
@@ -32,7 +33,8 @@ body {
   text-align: 'center';
   background-color: #FFFFFF;
   letter-spacing: .013em;
-  overflow-y: scroll;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
 }
 
 .btns {

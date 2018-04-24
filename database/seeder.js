@@ -1,5 +1,5 @@
 const request = require('request');
-const initData = require('./ZagatData60.json');
+const initData = require('./195-Zagat-AllData.json');
 const rp = require('request-promise')
 const fs = require('fs');
 const Places = require('./index.js');
@@ -8,11 +8,13 @@ const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/apateez-sidebar');
 
+let finalData = initData.slice(0, 100);
+
 
 getFullData = (places) => {
   Promise.map(places, function(place) {
       var options = {
-          uri: `https://maps.googleapis.com/maps/api/place/details/json?placeid=${place.place_id}&key=AIzaSyDkBAx39pJ0ccyXA-TWN-FmevHc87mznAM`,
+          uri: `https://maps.googleapis.com/maps/api/place/details/json?placeid=${place.result.place_id}&key=AIzaSyDkBAx39pJ0ccyXA-TWN-FmevHc87mznAM`,
           headers: {
               'User-Agent': 'Request-Promise'
         },
@@ -44,7 +46,7 @@ getFullData = (places) => {
     .catch(err => console.log(err));
 }
 
-getFullData(initData);
+getFullData(finalData);
 
 
 module.exports = getFullData;
