@@ -11,7 +11,11 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe('Contact', () => {
   let wrapper;
-  beforeEach(() => { wrapper = shallow(<Contact />)});
+  let mounted;
+  beforeEach(() => { 
+    wrapper = shallow(<Contact />)
+    mounted = mount(<Contact />)
+  });
 
   it('should be defined', () => {
     expect(Contact).toBeDefined();
@@ -20,6 +24,6 @@ describe('Contact', () => {
     expect(wrapper).toHaveLength(1);
   });
   it('should render props correctly', () => {
-    expect(wrapper.instance().state.isLoaded).toBe(true);
+    expect(mounted.props().id).toBe('5adeb3f05406dbedc8522709');
   });
 });

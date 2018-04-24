@@ -29,7 +29,7 @@ export default class Sidebar extends React.Component {
     let context = this;
     console.log(window.location.href)
     let id = window.location.href.split('/')[4];
-    axios.get(`/api/restaurants/${id}`)
+    axios.get(`http://localhost:3001/api/restaurants/${id}`)
     .then((res) => {
       this.setState({
         place: res.data,
@@ -74,5 +74,9 @@ export default class Sidebar extends React.Component {
     }
   }
 }
+
+
+ReactDOM.render(<Sidebar name="sidebar"/>, document.getElementById('apateezSidebar'));
+
 
 window.Sidebar = Sidebar;
