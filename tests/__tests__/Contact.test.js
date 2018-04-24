@@ -21,9 +21,6 @@ describe('Contact', () => {
     expect(Contact).toBeDefined();
   });
   it('should render one Contact component', () => {
-    expect(wrapper).toHaveLength(1);
-  });
-  it('should render props correctly', () => {
-    expect(mounted.props().id).toBe('5adeb3f05406dbedc8522709');
+    expect(mounted).toHaveLength(1);
   });
 });
