@@ -1,16 +1,17 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 import Menu from './Menu.jsx';
 import Booking from './Booking.jsx';
 import Hours from './Hours.jsx';
 import Contact from './Contact.jsx';
 import GMap from './GMap.jsx';
 const axios = require('axios');
-import '../../dist/style.css';
+// import '../../dist/style.css';
 
 
 export default class Sidebar extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       place: {},
@@ -75,8 +76,3 @@ export default class Sidebar extends React.Component {
 }
 
 window.Sidebar = Sidebar;
-
-ReactDOM.render(
-  React.createElement(Sidebar),
-  document.getElementById('apateezSidebar')
-);

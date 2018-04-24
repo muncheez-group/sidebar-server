@@ -39,7 +39,7 @@ body {
 
 .btns {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: white;
   cursor: pointer;
   height: 50px;
@@ -55,13 +55,20 @@ body {
   background-color: #101820;
   color: white;
 }
+.buttonText {
+  margin-left: 40px;
+}
+.menuIcon, .bookingIcon {
+  margin-right: 40px;
+}
+
 
 .icons {
   font-size: 1.8rem !important;
-  /* color: #101820; */
   vertical-align: middle !important;
   text-align: right !important;
   line-height: 50px !important;
+
 }
 
 .greyBar {
@@ -83,7 +90,7 @@ body {
 
 .contactText {
   vertical-align: middle;
-  line-height: 20px;
+  line-height: 50px;
   /* display: inline-block; */
   color: #101820;
   margin: 8px -10px 10px 20px;
@@ -92,6 +99,9 @@ body {
   cursor: pointer;
   letter-spacing: .016em;
   width: 75%;
+}
+.address .contactText {
+  line-height: 20px;
 }
 
 .contactText:hover {
@@ -145,5 +155,5 @@ body {
   display: none;
 }
 .staticMap {
-  margin: -10px 0 15px 30px;
+  text-align: center;
 }

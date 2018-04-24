@@ -1,6 +1,6 @@
-const db = require('../database/index.js');
+const db = require('../../database/index.js');
 
-let place_id = 'ChIJw3k8iZ5-hYARJSkLTdSXbls';
+let place_id = 'ChIJIbtvA4qAhYARdnwerOi-f4I';
 
 
 test('the full dataset is a JSON array', () => {
