@@ -22,12 +22,10 @@ export default class Sidebar extends React.Component {
   };
   componentDidMount() {
     this.getPlace();
-    // 'ChIJw3k8iZ5-hYARJSkLTdSXbls'
   };
 
   getPlace() {
     let context = this;
-    console.log(window.location.href)
     let id = window.location.href.split('/')[4];
     axios.get(`http://localhost:3001/api/restaurants/${id}`)
     .then((res) => {
