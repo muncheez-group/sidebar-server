@@ -16,7 +16,6 @@ export default class Sidebar extends React.Component {
       isLoaded: false
     };
 
-    this.handleClick = this.handleClick.bind(this);
     this.getPlace = this.getPlace.bind(this);
   };
   componentDidMount() {
@@ -39,11 +38,6 @@ export default class Sidebar extends React.Component {
     .catch((err) => console.log(err));
   };
 
-
-  handleClick(e) {
-    
-  }
-
   render() {
     const { hours, address, phone, website, location, id, name, url, menu_url } = this.state.place;
     if (!this.state.isLoaded) {
@@ -51,27 +45,29 @@ export default class Sidebar extends React.Component {
     }
     if (this.state.isLoaded) {
       return (
-        <div className="sidebar">
-          <Menu  menuUrl={menu_url}/>
-          <div className="greyBar"></div>
-          <Booking />
-          <div className="greyBar"></div>
-          <div className="inSidebar">
-            <Hours hours={hours}/>
-            <Contact
-              address={address} 
-              phone={phone}
-              website={url}
-              location={location}
-              id={id}
-              name={name}
-            />
-            <GMap 
-              location={location}
-              id={id}
-            />
+        
+          <div className="sidebar">
+            <Menu  menuUrl={menu_url}/>
+            <div className="greyBar"></div>
+            <Booking />
+            <div className="greyBar"></div>
+            <div className="inSidebar">
+              <Hours hours={hours}/>
+              <Contact
+                address={address} 
+                phone={phone}
+                website={url}
+                location={location}
+                id={id}
+                name={name}
+              />
+              <GMap 
+                location={location}
+                id={id}
+              />
+            </div>
           </div>
-        </div>
+   
       );
     }
   }
