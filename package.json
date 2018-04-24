@@ -1,10 +1,10 @@
 {
   "name": "sidebar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Displays descriptive info about restaurant",
   "main": "bundle.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --no-caches",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "build": "webpack -d --watch",
@@ -12,7 +12,7 @@
     "seed": "node ./database/seeder.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "pooja-kodavanti",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
@@ -40,6 +40,7 @@
     "webpack": "^3.11.0"
   },
   "devDependencies": {
+    "css-loader": "^0.28.11",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
@@ -49,7 +50,8 @@
     "eslint-plugin-react": "^7.7.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.3",
-    "react-test-renderer": "^16.3.2"
+    "react-test-renderer": "^16.3.2",
+    "style-loader": "^0.21.0"
   },
   "repository": {
     "type": "git",
@@ -57,11 +59,12 @@
   },
   "jest": {
     "setupFiles": [
-      "./tests/jestsetup.js"
+      "./tests/__tests__/jestSetup.js"
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
-    ]
+    ],
+    "verbose": true
   },
   "bugs": {
     "url": "https://github.com/apateez/sidebar/issues"
