@@ -5,7 +5,7 @@ var SRC_DIR = path.join(__dirname, '/client/src/components');
 var DIST_DIR = path.join(__dirname, '/client/dist');
 
 module.exports = {
-  entry: `${SRC_DIR}/index.jsx`,
+  entry: `${SRC_DIR}/Sidebar.jsx`,
   output: {
     filename: 'bundle.js',
     path: DIST_DIR
