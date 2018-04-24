@@ -12,7 +12,7 @@ body {
 }
 
 #apateezSidebar {
-  margin-top: 3em;
+  margin-top: 0;
   right: 30px;
   width: 27%;
   transform: translate3d(0,0,0);
