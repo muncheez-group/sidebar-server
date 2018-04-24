@@ -10,16 +10,11 @@ Enzyme.configure({ adapter: new Adapter() });
 
 
 describe('Sidebar', () => {
-  let wrapper;
-  beforeEach(() => { wrapper = shallow(<Sidebar name="sidebar" />)});
-
-  it('should be defined', () => {
-    expect(Sidebar).toBeDefined();
-  });
-  it('should render one Sidebar component', () => {
-    expect(wrapper).toHaveLength(1);
-  });
-  it('should render props correctly', () => {
-    expect(wrapper.instance().props.name).toBe('sidebar');
-  });
+  
+  // test('should render with the correct items', () => {
+  //   const sidebar = mount(
+  //     <Sidebar />
+  //     );
+  //   expect(Sidebar).toMatchSnapshot();
+  // });
 });
