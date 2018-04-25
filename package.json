@@ -57,11 +57,14 @@
   },
   "jest": {
     "setupTestFrameworksScriptFile": [
-      "./tests/__tests__/jestSetup.js"
+      "./tests/jestSetup.js"
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.css$": "<rootDir>/tests/styleMock.js"
+    }
   },
   "bugs": {
     "url": "https://github.com/apateez/sidebar/issues"

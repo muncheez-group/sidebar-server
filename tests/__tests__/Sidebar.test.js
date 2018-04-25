@@ -7,14 +7,15 @@ import Sidebar from '../../client/src/components/Sidebar';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-
-
 describe('Sidebar', () => {
-  
-  // test('should render with the correct items', () => {
-  //   const sidebar = mount(
-  //     <Sidebar />
-  //     );
-  //   expect(Sidebar).toMatchSnapshot();
-  // });
+  it('should be defined', () => {
+    expect(Sidebar).toBeDefined();
+  });
+  it('should render correctly', () => {
+    const tree = shallow(
+      <Sidebar />
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
 });
