@@ -1,13 +1,13 @@
-# Project Name
+# Apateez Sidebar
 
-> Project description
+> A clone of Zagat's restaurant page sidebar.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/apateez/reviews
+  - https://github.com/apateez/nearby
+  - https://github.com/apateez/proxy-Pooja
+  - https://github.com/apateez/gallery
 
 ## Table of Contents
 
@@ -17,14 +17,27 @@
 
 ## Usage
 
-> Some usage instructions
+To start server:
+```sh
+npm run start
+```
+
+To run webpack:
+```sh
+npm run build
+```
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
 - Node 6.13.0
-- etc
+- ExpressJS
+- React
+- React-DOM
+- Webpack
+- Babel CLI
+- MongoDB
+- Mongoose
+
 
 ## Development
 
@@ -33,7 +46,6 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
