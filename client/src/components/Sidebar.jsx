@@ -33,7 +33,6 @@ export default class Sidebar extends React.Component {
         place: res.data,
         isLoaded: true
       })
-      // console.log(this.state.place)
     })
     .catch((err) => console.log(err));
   };
@@ -74,7 +73,6 @@ export default class Sidebar extends React.Component {
 }
 
 
-ReactDOM.render(<Sidebar name="sidebar"/>, document.getElementById('apateezSidebar'));
-
 
 window.Sidebar = Sidebar;
+

@@ -10,17 +10,44 @@ Enzyme.configure({ adapter: new Adapter() });
 
 
 describe('Contact', () => {
-  let wrapper;
-  let mounted;
-  beforeEach(() => { 
-    wrapper = shallow(<Contact />)
-    mounted = mount(<Contact />)
-  });
+  
 
   it('should be defined', () => {
-    expect(Contact).toBeDefined();
+    let address= '944 Market St'; 
+    let phone='888-8888';
+    let website='google.com';
+    let location='SF';
+    let id='1234';
+    let name='Hack Reactor';
+
+    let wrapper = shallow(<Contact
+      address={address} 
+      phone={phone}
+      website={website}
+      location={location}
+      id={id}
+      name={name}
+    />) 
+    expect(wrapper).toBeDefined();
   });
-  it('should render one Contact component', () => {
-    expect(mounted).toHaveLength(1);
+  it('should render correctly', () => {
+    let address= '944 Market St'; 
+    let phone='888-8888';
+    let website='google.com';
+    let location='SF';
+    let id='1234';
+    let name='Hack Reactor';
+
+    const tree = shallow(
+      <Contact 
+      address={address} 
+      phone={phone}
+      website={website}
+      location={location}
+      id={id}
+      name={name}
+      />
+    );
+    expect(tree).toMatchSnapshot();
   });
 });
