@@ -30,7 +30,7 @@ getFullData = (places) => {
           location: data.result.url,
           url: data.result.website,
           phone: data.result.international_phone_number,
-          hours: data.result.opening_hours.weekday_text,
+          hours: data.result.opening_hours ? data.result.opening_hours.weekday_text : null,
           coords: {
             lat: data.result.geometry.location.lat,
             lng: data.result.geometry.location.lng

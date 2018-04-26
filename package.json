@@ -6,8 +6,10 @@
   "scripts": {
     "test": "jest --watch --coverage",
     "build": "webpack -d --watch",
-    "start": "nodemon ./server/server.js",
-    "seed": "node ./database/seeder.js"
+    "build:prod": "webpack -p",
+    "start": "node ./server/server.js",
+    "seed": "node ./database/seeder.js",
+    "docker": "npm run build:prod && npm run seed & npm run start"
   },
   "keywords": [],
   "author": "pooja-kodavanti",
