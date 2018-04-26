@@ -1,13 +1,13 @@
-FROM node:carbon
+FROM node:latest
+
+RUN mkdir -p /app
 
 WORKDIR /app
 
-COPY package.json /app
+COPY . /app
 
 RUN npm install
 
-COPY . /app
+EXPOSE 3001
 
 CMD [ "npm", "run", "docker" ]
-
-EXPOSE 3001
