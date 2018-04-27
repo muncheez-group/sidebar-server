@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://database/apateez-sidebar');
+mongoose.connect('mongodb://localhost/apateez-sidebar');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -27,4 +27,9 @@ const placesSchema = mongoose.Schema({
 
 const Places = mongoose.model('Places', placesSchema);
 
+const clearDb = (cb) => {
+    Places.remove({}, cb)
+  }
+
 module.exports = Places;
+exports.clearDb = clearDb;
