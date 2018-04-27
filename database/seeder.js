@@ -8,8 +8,6 @@ const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://database/apateez-sidebar');
 
-let finalData = initData.slice(0, 100);
-
 
 getFullData = (places) => {
   let counter = 0;
@@ -66,6 +64,6 @@ getFullData = (places) => {
     // .catch(err => console.log(err));
 };
 
-getFullData(finalData);
+getFullData(initData);
 
 module.exports = getFullData;
