@@ -25,7 +25,6 @@ getFullData = (places) => {
     //   .then((data) => {
       console.log('GET FULL DATA CALLED')
   let seedData = () => {
-    console.log('SEED DATA')
     let temp = {
       id: places[counter].result.place_id,
       name: places[counter].result.name,
@@ -40,7 +39,7 @@ getFullData = (places) => {
         lng: places[counter].result.geometry.location.lng
       }
     };
-    
+    console.log(temp)
 
     Places.create(temp, (err, data) => {
       if (err) {
@@ -50,14 +49,16 @@ getFullData = (places) => {
         if (counter < places.length) {
           seedData();
         } else {
-          mongoose.disconnect();
+          return;
         }
       }
     });
 
 
   };
+
   seedData()
+
      // })
         // .catch(err => console.log(err));
 
