@@ -83,7 +83,7 @@ body {
 .wrap-collabsible {
   margin-top: 1em;
   margin-bottom: 1rem 0;
-  margin-left: 1rem;
+  margin-left: 1.7rem;
   font-size: 14px !important;
 }
 input[type='checkbox'] {
@@ -121,7 +121,7 @@ input[type='checkbox'] {
 }
 
 #collapsible {
-  margin-right: 2em;
+  margin-right: 1.8em;
 }
 
 [type="checkbox"]:checked+label:before {
@@ -144,6 +144,7 @@ input[type='checkbox'] {
   max-height: 0px;
   overflow: hidden;
   transition: max-height .25s ease-in-out;
+  margin-left: 1em;
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
@@ -154,10 +155,6 @@ input[type='checkbox'] {
   transform: rotate(90deg) translateX(-3px);
 }
 
-[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
-  top: 1em !important;
-  left: 15em !important;
-}
 [type="checkbox"]+label {
   font-size: 14.5px;
   padding-left: 1em;
@@ -165,7 +162,12 @@ input[type='checkbox'] {
 [type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
   border-bottom: 2px solid #101820 !important;
   border-left: 2px solid #101820 !important;
+  width: 15px !important;
+  height: 15px !important;
+  top: 1em !important;
+  left: 15em !important;
 }
+
 .schedule {
   margin-top: 0.5em !important;
   cursor: default !important;
@@ -176,8 +178,8 @@ input[type='checkbox'] {
 }
 
 .contact {
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-top: 1px !important;
+  margin-left: 1.5rem;
   padding: 20px 15px;
   padding-left: 0px;
 
@@ -188,7 +190,7 @@ input[type='checkbox'] {
 
 .row {
   display: inline-flex;
-  margin-left: 10px !important;
+  margin-left: 5px !important;
 }
 
 .contactText {
