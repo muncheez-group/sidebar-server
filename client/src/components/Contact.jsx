@@ -14,7 +14,7 @@ export default class Contact extends React.Component {
     let modalLink= `https://www.google.com/maps/embed/v1/place?key=AIzaSyDfVc7Wl0xQOdHnSm30Yk2lZtcBTPEZtjM&q=place_id:${this.props.id}`;
     
     return (
-      <div className="contact">
+      <div className="contact" style={{content: {left: "0px", "margin-left": "0px"}}}>
         <Modal
           className="mapModal"
           trigger={<div className="address row">
