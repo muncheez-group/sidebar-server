@@ -55,7 +55,7 @@ getFullData = (places) => {
 
   };
 
-  seedData()
+  seedData();
 
      // })
         // .catch(err => console.log(err));
