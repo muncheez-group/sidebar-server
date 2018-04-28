@@ -36,9 +36,9 @@ body {
   /* overflow-y: scroll; */
 }
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: content-box !important;
-}
+} */
 
 .btns {
   display: flex;
@@ -83,7 +83,7 @@ body {
 .wrap-collabsible {
   margin-top: 1em;
   margin-bottom: 1rem 0;
-  margin-left: 1.7rem;
+  margin-left: 1.7rem !important;
   font-size: 14px !important;
 }
 input[type='checkbox'] {
@@ -188,6 +188,10 @@ input[type='checkbox'] {
   font-size: 14px;
 }
 
+.inSidebar {
+  display: flex;
+  flex-direction: column;
+}
 .row {
   display: inline-flex;
   margin-left: 5px !important;
