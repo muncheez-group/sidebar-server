@@ -19,7 +19,7 @@ body {
   transform: translate3d(0,0,0);
   /* overflow-y: scroll; */
   overflow-x: hidden;
-  height: 30em;
+  height: 40em;
   position: sticky;
   position: -webkit-sticky;
   float: right;
@@ -76,8 +76,103 @@ body {
   background-color: #F1F1F3;
   position: relative;
 }
+.wrap-collabsible {
+  margin-top: 1em;
+  margin-bottom: 1.2rem 0;
+  margin-left: 1rem;
+  font-size: 14px !important;
+}
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle {
+  margin-top: 10px;
+  display: block;
+  text-align: left;
+  padding: 1rem;
+  color: #101820;
+  background: white;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+  color: #92002c;
+}
+
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+
+  /* border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor; */
+
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+
+#collapsible {
+  margin-right: 2em;
+}
+
+[type="checkbox"]:checked+label:before {
+  border-top: 2px solid transparent !important;
+  border-left: 2px solid transparent !important;
+  border-right: 2px solid #92002c !important;
+  border-bottom: 2px solid #92002c !important;
+}
+
+.collapsible-content .content-inner {
+  /* background: rgba(250, 224, 66, .2);
+  border-bottom: 1px solid rgba(250, 224, 66, .45); */
+/* 
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px; */
+  line-height: 1em;
+  padding: .5rem 1rem;
+}
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 350px;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+  top: 1em !important;
+  left: 15em !important;
+}
+[type="checkbox"]+label {
+  font-size: 14.5px;
+  padding-left: 1em;
+}
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+  border-bottom: 2px solid #101820 !important;
+  border-left: 2px solid #101820 !important;
+}
+.schedule {
+  margin-top: 0.5em !important;
+  cursor: default !important;
+}
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
 .contact {
+  margin-top: 15px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
@@ -86,7 +181,7 @@ body {
 
 .row {
   display: inline-flex;
-  margin-left: 20px !important;
+  margin-left: 10px !important;
 }
 
 .contactText {
@@ -114,7 +209,7 @@ body {
 .contactIcon {
   float: left;
   vertical-align: middle !important;
-  margin: 0 0 0 10px !important;
+  margin: 0 0 0 10px;
   cursor: pointer;
   color: #92002c;
   line-height: 50px;
