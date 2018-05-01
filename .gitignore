@@ -2,5 +2,5 @@
 node_modules/
 
 ## Compiled Files ##
-client/bundle.js
+**/bundle.js
 ZagatData60.json
