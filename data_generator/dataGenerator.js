@@ -45,19 +45,20 @@ function createRecord(i) {
  * https://nodejs.org/api/stream.html#stream_event_drain
  */
 function writer(numberToGenerate = 10000000) {
+  let i = numberToGenerate;
   function write() {
     let ok = true;
     do {
-      numberToGenerate-= 1;
-      if (numberToGenerate === 0) {
+      i -= 1;
+      if (i === 0) {
         // last time!
-        stream.write(createRecord(numberToGenerate));
+        stream.write(createRecord(i));
       } else {
         // see if we should continue, or wait
         // don't pass the callback, because we're not done yet.
-        ok = stream.write(createRecord(numberToGenerate));
+        ok = stream.write(createRecord(i));
       }
-    } while (numberToGenerate> 0 && ok);
+    } while (i > 0 && ok);
     if (i > 0) {
       // had to stop early!
       // write some more once it drains
@@ -71,5 +72,5 @@ writer();
 
 module.exports = {
   createRecord,
-  generateName
-}
+  generateName,
+};
