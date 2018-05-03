@@ -1,0 +1,16 @@
+## Generated Data ##
+/data_generator/data.json
+/data_generator/dictionary.js
+
+## Bundle ##
+/client/dist/bundle.js
+
+## Tests ## 
+/tests/
+/Coverage/
+
+##  Node modules ##
+./node_modules/
+
+## Webpack ##
+webpack.config.js

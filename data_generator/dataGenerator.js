@@ -1,55 +1,57 @@
-const dict = require("./dictionary.js")
+const dict = require('./dictionary.js');
 const faker = require('faker');
 const fs = require('fs');
+
 faker.locale = 'en_US';
 
-let stream = fs.createWriteStream('./data.json');
-let ok = true;
+const stream = fs.createWriteStream('./data.json');
 
 function generateName() {
-  let adj = dict.adjectives[Math.floor(Math.random() * dict.adjectives.length)]
+  let adj = dict.adjectives[Math.floor(Math.random() * dict.adjectives.length)];
   adj = adj.charAt(0).toUpperCase() + adj.slice(1);
 
-  let noun = dict.nouns[Math.floor(Math.random() * dict.nouns.length)]
+  let noun = dict.nouns[Math.floor(Math.random() * dict.nouns.length)];
   noun = noun.charAt(0).toUpperCase() + noun.slice(1);
 
-  return `${adj} ${noun}`
+  return `${adj} ${noun}`;
 }
 
-function generateHours(seed) {
-
+function generateHours() {
   return (
-          ` Monday: 9:00 AM – 9:00 PM,
+    ` Monday: 9:00 AM – 9:00 PM,
             Tuesday: 9:00 AM – 9:00 PM,
             Wednesday: 9:00 AM – 9:00 PM,
             Thursday: 9:00 AM – 9:00 PM,
             Friday: 9:00 AM – 9:00 PM,
             Saturday: 9:00 AM – 9:00 PM,
             Sunday: 9:00 AM – 9:00 PM `
-          )
+  );
 }
 
-var createRecord = function(i) {
+function createRecord(i) {
   faker.seed(i);
-  var restaurant = {};
+  const restaurant = {};
   restaurant.id = i; // generate incrementing id
   restaurant.name = generateName();
   restaurant.address = faker.address.streetAddress();
   restaurant.url = faker.internet.url();
   restaurant.phone = faker.phone.phoneNumberFormat(0);
-  restaurant.hours = generateHours()
+  restaurant.hours = generateHours();
   restaurant.coords = {
     lat: faker.address.latitude(),
-    long: faker.address.longitude()
+    long: faker.address.longitude(),
   };
   return JSON.stringify(restaurant);
 }
 
-function writer(stream) {
-  var i = 10;
-  write();
+/*
+ * Taken from the Node.js docs
+ * https://nodejs.org/api/stream.html#stream_event_drain
+ */
+function writer() {
+  let i = 10;
   function write() {
-    var ok = true;
+    let ok = true;
     do {
       i -= 1;
       if (i === 0) {
@@ -67,6 +69,7 @@ function writer(stream) {
       stream.once('drain', write);
     }
   }
+  write();
 }
 
-writer(stream);
+writer();

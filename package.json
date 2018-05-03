@@ -10,7 +10,9 @@
     "start": "node ./server/server.js",
     "seed": "node ./database/seeder.js",
     "docker": "npm run build:prod && npm run seed & npm run start",
-    "generate": "node -r babel-register ./data_generator/dataGenerator.js"
+    "generate": "node -r babel-register ./data_generator/dataGenerator.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "pooja-kodavanti",
