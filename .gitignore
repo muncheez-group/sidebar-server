@@ -4,3 +4,9 @@ node_modules/
 ## Compiled Files ##
 **/bundle.js
 ZagatData60.json
+
+# Generated Data ##
+data_generator/data.json
+
+## .DS_Store ##
+**/.DS_Store
