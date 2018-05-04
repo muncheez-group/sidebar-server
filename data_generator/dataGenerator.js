@@ -6,6 +6,14 @@ faker.locale = 'en_US';
 
 const stream = fs.createWriteStream('./data.json');
 
+const hours = `Monday: 9:00 AM – 9:00 PM,
+               Tuesday: 9:00 AM – 9:00 PM,
+               Wednesday: 9:00 AM – 9:00 PM,
+               Thursday: 9:00 AM – 9:00 PM,
+               Friday: 9:00 AM – 9:00 PM,
+               Saturday: 9:00 AM – 9:00 PM,
+               Sunday: 9:00 AM – 9:00 PM`;
+
 function generateName() {
   let adj = dict.adjectives[Math.floor(Math.random() * dict.adjectives.length)];
   adj = adj.charAt(0).toUpperCase() + adj.slice(1);
@@ -16,18 +24,6 @@ function generateName() {
   return `${adj} ${noun}`;
 }
 
-function generateHours() {
-  return (
-    ` Monday: 9:00 AM – 9:00 PM,
-            Tuesday: 9:00 AM – 9:00 PM,
-            Wednesday: 9:00 AM – 9:00 PM,
-            Thursday: 9:00 AM – 9:00 PM,
-            Friday: 9:00 AM – 9:00 PM,
-            Saturday: 9:00 AM – 9:00 PM,
-            Sunday: 9:00 AM – 9:00 PM `
-  );
-}
-
 function createRecord(i) {
   faker.seed(i);
   const restaurant = {};
@@ -36,7 +32,7 @@ function createRecord(i) {
   restaurant.address = faker.address.streetAddress();
   restaurant.url = faker.internet.url();
   restaurant.phone = faker.phone.phoneNumberFormat(0);
-  restaurant.hours = generateHours();
+  restaurant.hours = hours;
   restaurant.coords = {
     lat: faker.address.latitude(),
     long: faker.address.longitude(),
@@ -48,8 +44,8 @@ function createRecord(i) {
  * Taken from the Node.js docs
  * https://nodejs.org/api/stream.html#stream_event_drain
  */
-function writer() {
-  let i = 10;
+function writer(numberToGenerate = 10000000) {
+  let i = numberToGenerate;
   function write() {
     let ok = true;
     do {
@@ -73,3 +69,8 @@ function writer() {
 }
 
 writer();
+
+module.exports = {
+  createRecord,
+  generateName,
+};
