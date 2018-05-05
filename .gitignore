@@ -7,6 +7,7 @@ ZagatData60.json
 
 # Generated Data ##
 data_generator/data.json
+data_generator/data.csv
 
 ## .DS_Store ##
 **/.DS_Store
