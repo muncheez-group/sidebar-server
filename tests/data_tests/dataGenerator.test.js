@@ -29,14 +29,15 @@ describe('createJSONRecord', () => {
 })
 
 describe('createCSVRecord',  () => {
-  const record = generator.createCSVRecord();
+  const record = generator.createCSVRecord(0);
   
   it('returns a string', () => {
     expect(typeof record).toEqual('string');
   })
 
-  it('has column headers in the first row', () =>{
-    expect(record.includes('id,name,address,url,phone,hours,lat,long\n'))
+  it('makes a record in the expected form', () =>{
+    const pattern = /\d+,\b[A-Z][a-z]*('s)?\b \b[A-Z][a-z]*,\d+ [a-zA-z ']+,https?:\/\/\w+.\w+,\d{3}-\d{3}-\d{4},"[a-zA-z :\d–,]+",-?\d+(.\d+)?,-?\d+(.\d+)?/
+    expect(pattern.test(record)).toBe(true);
   }) 
 })
 
