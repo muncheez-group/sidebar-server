@@ -71,9 +71,9 @@ function createCSVRecord(i) {
  */
 function writer() {
   let i = numberToGenerate;
+  if (outputCSV) stream.write('id,name,address,url,phone,hours,lat,long\n');
   function write() {
     let ok = true;
-    if (outputCSV) stream.write('id,name,address,url,phone,hours,lat,long\n');
     do {
       i -= 1;
       if (i === 0) {
