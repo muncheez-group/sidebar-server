@@ -6,7 +6,7 @@ const app = express();
 
 const port = process.env.PORT || 3001;
 const bodyParser = require('body-parser');
-const Places = require('../database/index.js');
+const Places = require('../database/postgres.js');
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -24,13 +24,13 @@ app.get('/restaurants/:id', (req, res) => {
 });
 
 app.get('/api/restaurants/:id', (req, res) => {
-  const q = Places.findOne({ id: req.params.id });
+  Places.getRestaurant(req.params.id, res.send.bind(res));
+  // const q = Places.findOne({ id: req.params.id });
 
-  q.exec((err, place) => {
-    if (err) { console.log(err); }
-    console.log('PLACE: ', place);
-    res.send(place);
-  });
+  // q.exec((err, place) => {
+  //   if (err) { console.log(err); }
+  //   res.send(place);
+  // });
 });
 
 app.listen(port, () => {
