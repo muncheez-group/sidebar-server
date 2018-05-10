@@ -11,3 +11,6 @@ data_generator/data.csv
 
 ## .DS_Store ##
 **/.DS_Store
+
+## Benchmarking Script ##
+/data_generator/benchmark.js
