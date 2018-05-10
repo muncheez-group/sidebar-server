@@ -29,7 +29,6 @@ app.get('/api/restaurants/:id', (req, res) => {
 
   // q.exec((err, place) => {
   //   if (err) { console.log(err); }
-  //   console.log('PLACE: ', place);
   //   res.send(place);
   // });
 });

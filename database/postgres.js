@@ -9,13 +9,12 @@ const config = {
 };
 
 const pool = new Pool(config);
-console.log(pool);
+
 const getRestaurant = function (id, cb) {
   pool.query(`SELECT * FROM restaurants WHERE id=${id}`, (err, data) => {
     if (err) {
       console.log(err);
     }
-    console.log(data.rows[0]);
     cb(data.rows[0]);
   })
 }
