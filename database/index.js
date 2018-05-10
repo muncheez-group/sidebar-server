@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
-const mongoUrlDocker = 'mongodb://database/apateez-sidebar';
-const mongoUrl = 'mongodb://localhost/apateez-sidebar';
+// const mongoUrlDocker = 'mongodb://database/apateez-sidebar';
+// const mongoUrl = 'mongodb://localhost/apateez-sidebar';
+const mongoUrl = 'mongodb://localhost/restaurants';
 
 mongoose.connect(mongoUrl);
 
@@ -20,23 +21,19 @@ db.once('open', () => {}); // connected
 
 const placesSchema = mongoose.Schema({
   id: {
-    type: String,
+    type: Number,
     unique: true,
   },
   name: String,
-  menu_url: String,
   address: String,
-  location: String,
   url: String,
   phone: String,
-  hours: [],
-  coords: {
-    lat: String,
-    lng: String,
-  },
+  hours: String,
+  lat: String,
+  long: String,
 });
 
-const Places = mongoose.model('Places', placesSchema);
+const Places = mongoose.model('restaurants', placesSchema);
 
 const clearDb = (cb) => {
   Places.remove({}, cb);
