@@ -24,7 +24,8 @@ export default class Hours extends React.Component {
 
   sortHours() {
     let currDay = moment().weekday(); // Mon = 1, Tues = 2, etc.
-    let currHours = this.props.hours.slice(currDay-1).concat(this.props.hours.slice(0, currDay-1));
+    // let currHours = this.props.hours.slice(currDay-1).concat(this.props.hours.slice(0, currDay-1));
+    let currHours = this.props.hours.split(',');
     this.setState({
       newHours: currHours,
       isLoaded: true
@@ -36,9 +37,9 @@ export default class Hours extends React.Component {
       return <div>Loading...</div>
     }
 
-    {this.state.newHours.slice(1).map((day) => {
+    {/*this.state.newHours.slice(1).map((day) => {
       <p className="day">day</p>
-    })}
+    })*/}
 
     if (this.state.isLoaded) {
       return ( 
