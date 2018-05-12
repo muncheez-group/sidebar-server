@@ -1,0 +1,42 @@
+config:
+  target: 'http://localhost:3001'
+  phases:
+    - duration: 90
+      arrivalRate: 10
+    - duration: 90
+      arrivalRate: 50
+    - duration: 90
+      arrivalRate: 100
+    - duration: 90
+      arrivalRate: 250
+    - duration: 90
+      arrivalRate: 500
+    - duration: 90
+      arrivalRate: 1000
+    - duration: 90
+      arrivalRate: 1250
+  variables:
+    id:
+      - '1'
+      - '145'
+      - '243251'
+      - '4353246'
+      - '324'
+      - '415135'
+      - '32555'
+      - '234111'
+      - '351251'
+      - '99576'
+      - '999588'
+      - '86754'
+      - '119484'
+      - '9656777'
+      - '8656777'
+
+  defaults:
+    headers:
+      x-my-service-auth: '987401838271002188298567'
+scenarios:
+  - flow:
+    - get:
+        url: '/api/restaurants/{{ id }}'

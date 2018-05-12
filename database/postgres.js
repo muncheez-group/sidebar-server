@@ -13,9 +13,9 @@ const pool = new Pool(config);
 const getRestaurant = function (id, cb) {
   pool.query(`SELECT * FROM restaurants WHERE id=${id}`, (err, data) => {
     if (err) {
-      console.log(err);
+      cb(err);
     }
-    cb(data.rows[0]);
+    cb(null, data.rows[0]);
   })
 }
 

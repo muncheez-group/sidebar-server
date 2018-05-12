@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
@@ -13,7 +14,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
-  // res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
 
@@ -24,13 +24,13 @@ app.get('/restaurants/:id', (req, res) => {
 });
 
 app.get('/api/restaurants/:id', (req, res) => {
-  Places.getRestaurant(req.params.id, res.send.bind(res));
-  // const q = Places.findOne({ id: req.params.id });
-
-  // q.exec((err, place) => {
-  //   if (err) { console.log(err); }
-  //   res.send(place);
-  // });
+  Places.getRestaurant(req.params.id, (err, data) => {
+    if (err) {
+      res.sendStatus(500);
+    } else {
+      res.send(data);
+    }
+  });
 });
 
 app.listen(port, () => {
