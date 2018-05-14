@@ -20,8 +20,13 @@ describe('getRestaurant', () => {
 
   queryData = undefined;
   
-  it('invokes the callback with data for a successful query', () => {
-    const goodQuery = db.getRestaurant(1, queryCallback);
+  it('invokes the callback with error for a bad query', () => {
+    const badQuery = db.getRestaurant('string', queryCallback)
+
+    if (badQuery.catch(error => error)) {
+      isErr = true;
+    }
+    
     expect(isErr).toBe(true);
     expect(queryData).toBeUndefined();
   })
