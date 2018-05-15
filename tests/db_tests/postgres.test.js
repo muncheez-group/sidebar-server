@@ -19,6 +19,7 @@ describe('getRestaurant', () => {
   })
 
   queryData = undefined;
+  isErr = false;
   
   it('invokes the callback with error for a bad query', () => {
     const badQuery = db.getRestaurant('string', queryCallback)

@@ -10,19 +10,10 @@ const config = {
 
 const pool = new Pool(config);
 
-// const getRestaurant = function (id, cb) {
-//   pool.query(`SELECT * FROM restaurants WHERE id=${id}`, (err, data) => {
-//     if (err) {
-//       cb(err);
-//     } else {
-//       cb(null, data.rows[0]);
-//     }
-//   });
-// };
-
-
-const getRestaurant = (id) => (
+const getRestaurant = (id, cb) => (
   pool.query(`SELECT * FROM restaurants WHERE id=${id}`)
+  .then(res => cb(null, res.rows[0]))
+  .catch(e => cb(e, null))
 );
 
 module.exports.getRestaurant = getRestaurant;
