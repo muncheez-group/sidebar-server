@@ -13,7 +13,6 @@
     "generate": "node -r babel-register ./data_generator/dataGenerator.js",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "test:postgres": "jest ./tests/db_tests/postgres.test.js --forceExit"
   },
   "keywords": [],
   "author": "pooja-kodavanti",
