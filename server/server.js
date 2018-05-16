@@ -1,17 +1,11 @@
 require('newrelic');
 const express = require('express');
-const morgan = require('morgan');
 const path = require('path');
+const redisClient = require('../database/redis.js');
 
 const app = express();
-
 const port = process.env.PORT || 3001;
-const bodyParser = require('body-parser');
-const Places = require('../database/postgres.js');
 
-app.use(morgan('dev'));
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   next();
@@ -24,7 +18,7 @@ app.get('/restaurants/:id', (req, res) => {
 });
 
 app.get('/api/restaurants/:id', (req, res) => {
-  Places.getRestaurant(req.params.id, (err, data) => {
+  redisClient.retrieveValue(req.params.id, (err, data) => {
     if (err) {
       res.sendStatus(500);
     } else {

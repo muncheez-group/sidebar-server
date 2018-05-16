@@ -12,7 +12,7 @@
     "docker": "npm run build:prod && npm run seed & npm run start",
     "generate": "node -r babel-register ./data_generator/dataGenerator.js",
     "lint": "eslint .",
-    "fix": "eslint . --fix",
+    "fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "pooja-kodavanti",
