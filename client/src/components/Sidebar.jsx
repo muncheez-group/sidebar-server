@@ -6,7 +6,7 @@ import Hours from './Hours.jsx';
 import Contact from './Contact.jsx';
 import GMap from './GMap.jsx';
 const axios = require('axios');
-import '../../dist/style.css';
+// import '../../dist/style.css';
 
 
 export default class Sidebar extends React.Component {
@@ -74,8 +74,6 @@ export default class Sidebar extends React.Component {
     }
   }
 }
-
-
 
 window.Sidebar = Sidebar;
 

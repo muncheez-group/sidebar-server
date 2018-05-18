@@ -14,7 +14,6 @@ const getRestaurant = (id, cb) => (
   pool.query(`SELECT * FROM restaurants WHERE id=${id}`)
     .then(res => cb(null, res.rows[0]))
     .catch((e) => {
-      console.log(e);
       cb(e, null);
     })
 );

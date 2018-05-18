@@ -3,8 +3,9 @@
 /data_generator/data.csv
 /data_generator/dictionary.js
 
-## Bundle ##
+## Bundles ##
 /client/dist/bundle.js
+/client/dist/bundle-server.js
 
 ## Tests ## 
 /tests/
@@ -15,3 +16,10 @@
 
 ## Webpack ##
 webpack.config.js
+
+## Proxy Bundles ##
+/proxy/public/services/sidebar.js
+/proxy/templates/services/sidebar-server.js
+
+##React Libraries ##
+/proxy/public/lib/*
