@@ -18,3 +18,11 @@ data_generator/data.csv
 ## New Relic ##
 /newrelic.js
 /newrelic_agent.log
+
+## Proxy Bundles ##
+/proxy/public/services/sidebar.js
+/proxy/templates/services/sidebar-server.js
+
+## Bundles ##
+/client/dist/bundle.js
+/client/dist/bundle-server.js
