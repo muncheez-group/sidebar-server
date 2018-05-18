@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 var SRC_DIR = path.join(__dirname, '/client/src');
 var DIST_DIR = path.join(__dirname, '/client/dist');
@@ -8,7 +9,8 @@ const common = {
   plugins: [
     new webpack.DefinePlugin({
       BASE_URL: JSON.stringify('http://localhost:3001'),
-    })
+    }),
+    new Dotenv(),
   ],
   context: __dirname + '/client',
   module : {

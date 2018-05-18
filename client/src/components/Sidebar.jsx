@@ -1,13 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import Menu from './Menu.jsx';
 import Booking from './Booking.jsx';
 import Hours from './Hours.jsx';
 import Contact from './Contact.jsx';
 import GMap from './GMap.jsx';
 const axios = require('axios');
-// import '../../dist/style.css';
-
 
 export default class Sidebar extends React.Component {
   constructor(props) {

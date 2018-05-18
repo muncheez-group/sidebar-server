@@ -1,7 +1,7 @@
 import React from 'react';
-import {Icon} from 'react-materialize';
+import { Icon } from 'react-materialize';
 
-const Menu = ({menuUrl}) => {
+const Menu = ({ menuUrl }) => {
 
   return (
     <a href={menuUrl} target="_blank">
