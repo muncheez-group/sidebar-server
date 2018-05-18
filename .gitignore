@@ -26,3 +26,6 @@ data_generator/data.csv
 ## Bundles ##
 /client/dist/bundle.js
 /client/dist/bundle-server.js
+
+## Google Maps API Key ##
+/map.config.js
